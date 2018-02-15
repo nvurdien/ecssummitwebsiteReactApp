@@ -27,6 +27,9 @@ const About = () => (
 
         <div className="uk-section uk-section-default uk-padding-large">
             <div className="uk-container">
+                <div className="uk-text-center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ESkN8w20hcU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
                 <p className="uk-text-center">Our team is devoted to make your experience as beneficial as it can be.
                 </p>
                 <div className="uk-grid-match uk-child-width-1-3@s" uk-grid="">

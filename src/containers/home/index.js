@@ -7,7 +7,6 @@ import './style.css';
 import introvideo from './Website-Intro-Video-Medium-Quality.mp4';
 import ACMWLogo from './ACMW-Tuffy.png';
 import ACMLogo from './acm-desktopcta.png';
-import Link from "react-router-dom/es/Link";
 import {OffCanvasHeader} from "../../components/offCanvasHeader";
 import day1image from './day1image.JPG';
 import day2image from './DSC_0073.JPG';
