@@ -163,12 +163,12 @@ const Home = () => (
                     <div>
                         <p>
                             <strong>Where can I volunteer?</strong>
-                            <br /> If you would like to volunteer please follow the link <Link to="/getinvolved">here</Link>.</p>
+                            <br /> If you would like to volunteer please follow the link <a href="/getinvolved">here</a>.</p>
                     </div>
                     <div>
                         <p>
                             <strong>Want to find out more?</strong>
-                            <br /> If you would like to know more please follow the link <Link to="/about">here</Link>.</p>
+                            <br /> If you would like to know more please follow the link <a href="/about">here</a>.</p>
                     </div>
                 </div>
 
