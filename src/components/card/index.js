@@ -12,7 +12,7 @@ const Card = ({image, name, title, description, email, github = null, linkedin =
         color: "white",
     };
     return <div>
-        <figure className="imghvr-blur" style={imageStyle}>
+        <figure className="imghvr-blur" alt={name + "'s headshot"} style={imageStyle}>
             <figcaption className="uk-text-center">
                 <h3>{name}
                     <h4>{title}</h4>

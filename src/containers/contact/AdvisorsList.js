@@ -1,4 +1,4 @@
-import beth from './KvQzjVeA_400x400.png';
+import beth from './bethshapiro.jpg';
 
 
 export const AdvisorsList = [

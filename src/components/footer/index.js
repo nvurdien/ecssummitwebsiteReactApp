@@ -1,3 +1,4 @@
+// eslint-anchor-has-content
 import React from 'react'
 
 const colorToWhite = {

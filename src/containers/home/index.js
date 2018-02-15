@@ -110,7 +110,7 @@ const Home = () => (
         <div className="uk-container">
             <div className="uk-child-width-1-2@s uk-grid-match" uk-grid="">
                 <div>
-                    <div className="uk-card uk-text-middle uk-card-secondary uk-box-shadow-large uk-box-shadow-hover-xlarge uk-background-blend-overlay uk-text-center uk-background-secondary uk-background-cover uk-card-body uk-border-rounded uk-background-fixed" style={day1Background} title="Summit Intro picture" alt="Summit Intro picture">
+                    <div title="at team building activity at event" className="uk-card uk-text-middle uk-card-secondary uk-box-shadow-large uk-box-shadow-hover-xlarge uk-background-blend-overlay uk-text-center uk-background-secondary uk-background-cover uk-card-body uk-border-rounded uk-background-fixed" style={day1Background} alt="Summit Intro picture">
                         <p className="uk-text-middle" style={colorToWhite}>
                             <h2 className="">Day 1</h2>
                             <span style={colorToWhite}>Active Listening
@@ -120,7 +120,7 @@ const Home = () => (
                     </div>
                 </div>
                 <div>
-                    <div className="uk-card uk-height-1-1 uk-card-secondary uk-box-shadow-large uk-box-shadow-bottom uk-box-shadow-hover-xlarge uk-text-center uk-background-blend-overlay uk-background-secondary uk-background-cover uk-card-body uk-border-rounded uk-background-fixed" style={day2Background} title="Summit Intro picture" alt="Summit Intro picture">
+                    <div title="at opening keynote speech" className="uk-card uk-height-1-1 uk-card-secondary uk-box-shadow-large uk-box-shadow-bottom uk-box-shadow-hover-xlarge uk-text-center uk-background-blend-overlay uk-background-secondary uk-background-cover uk-card-body uk-border-rounded uk-background-fixed" style={day2Background} alt="Summit Intro picture">
                         <p style={colorToWhite}>
                             <h2>Day 2</h2>
                             <span style={colorToWhite}>Strengthsfinder

@@ -3,7 +3,7 @@ import Card from "../card";
 
 export const CardList = ({members}) => {
     return (
-        <div className="uk-flex uk-flex-center uk-margin-auto uk-margin-vertical uk-grid-small" uk-scrollspy="cls: uk-animation-fade; target: > div > figure; repeat: true" uk-sortable="handle: div" uk-grid="">
+        <div className="uk-flex uk-flex-center uk-margin-auto uk-margin-vertical uk-grid-small" uk-scrollspy="cls: uk-animation-fade; target: > div > figure; repeat: true" uk-grid="">
             {
                 members.map((user, i) => {
                     return (

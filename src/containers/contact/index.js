@@ -24,7 +24,7 @@ export default () => (
             </div>
         </div>
         <div className="uk-section uk-section-default">
-            <h1 className="uk-heading-primary uk-heading-line uk-text-center"><span>Supervisors</span></h1>
+            <h1 className="uk-heading-primary uk-heading-line uk-text-center"><span>Professional Lead</span></h1>
             <CardList members={AdvisorsList}/>
         </div>
         <Footer/>

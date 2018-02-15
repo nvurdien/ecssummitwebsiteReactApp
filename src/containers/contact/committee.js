@@ -1,21 +1,24 @@
-import chrisvillan from './chrisvillan.png';
+import chrisvillan from './chrisvillan.jpg';
 import lauren from './laurensu.png';
 import steven from './stevenespin.png';
+import alvaro from './alvarorivas.jpg';
+import pooja from './poojagajjar.jpg';
+import oscar from './oscar.jpg';
 
 export const Committee = [
   {
     id: 1,
-    image:'',
+    image: alvaro,
     name:'Alvaro Rivas',
-    title:'A guy',
+    // title:'A guy',
     description:'Something',
-    email:'sespin@csu.fullerton.edu'
+      email:'alvaro_rivas@csu.fullerton.edu'
   },
     {
     id: 2,
     image: steven,
     name:'Steven Espin',
-    title:'A guy',
+    // title:'A guy',
     description:'Something',
     email:'sespin@csu.fullerton.edu'
   },
@@ -23,65 +26,64 @@ export const Committee = [
     id: 3,
     image: lauren,
     name:'Lauren Sukumar',
-    title:'A guy',
+    // title:'A guy',
     description:'Something',
-    email:'email@gmail.com'
+    email:'laurensukumar@csu.fullerton.edu'
   },
     {
     id: 4,
     image: chrisvillan,
     name:'Chris Villanueva',
-    title:'A guy',
+    // title:'A guy',
     description:'Something',
-    email:'email@gmail.com'
+    email:'cvillanueva19@csu.fullerton.edu'
   },
      {
     id: 5,
-    image:'',
+    image:oscar,
     name:'Oscar Olazabal',
-    title:'A guy',
+    // title:'A guy',
     description:'Something',
-    email:'email@gmail.com'
+    email:'omolazabal@csu.fullerton.edu'
   },
      {
     id: 6,
     image:'',
     name:'Navie Vurdien',
-    title:'A guy',
+    // title:'A guy',
     description:'Something',
     email:'nvurdien@csu.fullerton.edu'
   },
      {
     id: 7,
-    image:'',
-    name:'Charles Bucher',
-    title:'A guy',
-    description:'Something',
-    email:'email@gmail.com'
-  },
-     {
-    id: 8,
-    image:'',
+    image:pooja,
     name:'Pooja Gajjar',
-    title:'A guy',
+    // title:'A guy',
     description:'Something',
-    email:'email@gmail.com'
+    email:'pkgajjar@csu.fullerton.edu'
   },
-    
-     {
-    id: 9,
-    image:'',
-    name:'Saqib Shahabuddin',
-    title:'A guy',
-    description:'Something',
-    email:'email@gmail.com'
-  },
-     {
-    id: 10,
-    image:'',
-    name:'Tommy Chao',
-    title:'A guy',
-    description:'Something',
-    email:'email@gmail.com'
-  },
+// {
+//     id: 8,
+//     image:'',
+//     name:'Charles Bucher',
+//     // title:'A guy',
+//     description:'Something',
+//     email:'charles.abucher@gmail.com'
+// },
+//      {
+//     id: 9,
+//     image:'',
+//     name:'Saqib Shahabuddin',
+//     // title:'A guy',
+//     description:'Something',
+//     email:'sshahabuddin@csu.fullerton.edu'
+//   },
+//      {
+//     id: 10,
+//     image:'',
+//     name:'Tommy Chao',
+//     // title:'A guy',
+//     description:'Something',
+//     email:'tchao770@csu.fullerton.edu'
+//   },
 ];
