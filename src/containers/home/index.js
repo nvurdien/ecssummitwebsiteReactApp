@@ -69,7 +69,7 @@ const Home = () => (
     </div>
     <div style={lineHeightChange}>
         <h4 className="uk-article-lead" style={colorToWhite}><span>April 6th - 7th</span></h4>
-        <div className="uk-grid-small uk-flex uk-flex-center uk-child-width-auto" uk-grid uk-countdown="date: 2018-04-6T05:00:00+00:00" style={colorToWhite}>
+        <div className="uk-grid-small uk-flex uk-flex-center uk-child-width-auto" uk-grid uk-countdown="date: 2018-04-06T05:00:00+00:00" style={colorToWhite}>
         <div>
         <div className="uk-countdown-number uk-countdown-days"/>
         <div className="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Days</div>
@@ -101,7 +101,7 @@ const Home = () => (
 
     <div className="uk-section uk-section-primary uk-padding-large uk-flex uk-flex-middle">
         <div className="uk-text-center uk-margin-large-left@s uk-margin-large-right@s uk-padding-large@s uk-padding-remove-top uk-padding-remove-bottom" style={colorToWhite}>
-            <h4>The ECS Leadership and Diversity Summit is an event to provide students with professional leadership and promote diversity. The event will be hosted by a mixture of companies, industry professionals and student clubs. Many of the events will be be deliberately interactive, the goal being that the attendees walk away with hands-on experience with specific leadership skills.
+            <h4>The ECS Leadership and Diversity Summit is an event to promote diversity and provide students with professional leadership training. The event will be hosted by a mixture of companies, industry professionals and student clubs. Many of the events will be deliberately interactive, the goal being that the attendees walk away with hands-on experience with specific leadership skills.
             </h4>
         </div>
     </div>
@@ -142,22 +142,22 @@ const Home = () => (
                     <div className="">
                         <p>
                             <strong>Who can come?</strong>
-                            <br /> We are welcoming college students (undergraduate or graduate) who are Engineering and Computer Science majors.</p>
+                            <br /> We are welcoming college students (undergraduate or graduate) who are Engineering or Computer Science majors.</p>
                     </div>
                     <div>
                         <p>
                             <strong>What should I bring?</strong>
-                            <br />We don’t require you to bring anything. It may be helpful to bring a small notepad and pen.</p>
+                            <br />Nothing is required, but it may be helpful to bring a small notepad and pen.</p>
                     </div>
                     <div>
                         <p>
                             <strong>Does this cost money?</strong>
-                            <br />The event will be free to attend. We will provide free SWAG, food, and useful workshops.</p>
+                            <br />The event is free to attend. We will provide free SWAG, food, and useful workshops.</p>
                     </div>
                     <div>
                         <p>
                             <strong>What is the dress code?</strong>
-                            <br /> The dress code will be business casual.
+                            <br /> The dress code is business casual.
                         </p>
                     </div>
                     <div>
