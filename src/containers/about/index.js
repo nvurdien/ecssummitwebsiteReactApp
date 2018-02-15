@@ -6,7 +6,6 @@ import {Header} from "../../components/header";
 import Presidents from './alvaro&sara.JPG';
 import picture1 from './3people.JPG';
 import picture2 from './4people.JPG';
-import picture3 from './Copy of 2017-04-29 11.45.39.jpg';
 import {Footer} from "../../components/footer";
 
 const About = () => (
@@ -28,7 +27,7 @@ const About = () => (
         <div className="uk-section uk-section-default uk-padding-large">
             <div className="uk-container">
                 <div className="uk-text-center">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ESkN8w20hcU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ESkN8w20hcU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen/>
                 </div>
                 <p className="uk-text-center">Our team is devoted to make your experience as beneficial as it can be.
                 </p>
