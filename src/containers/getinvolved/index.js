@@ -1,5 +1,5 @@
 import React from 'react';
-import Flyer from './volunteer flyer.png';
+import Flyer from './volunteer flyer.jpg';
 import HeadImage from './getinvolvedimage.JPG';
 import {Header} from "../../components/header";
 import {Title} from "../../components/title";
