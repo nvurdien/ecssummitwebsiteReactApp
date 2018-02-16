@@ -12,6 +12,7 @@ import day1image from './day1image.JPG';
 import day2image from './DSC_0073.JPG';
 import {Footer} from "../../components/footer";
 
+
 const backgroundStyle = {
     minHeight: '750px',
     boxShadow: '-8px 21px 35px 0px rgba(0,0,0,0.38)',
