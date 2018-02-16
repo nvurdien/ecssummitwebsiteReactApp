@@ -9,6 +9,7 @@ import picture2 from './4people.JPG';
 import picture3 from './Copy of 2017-04-29 11.45.39.jpg';
 import {Footer} from "../../components/footer";
 
+
 const About = () => (
     <div>
         <OffCanvasHeader name="about" />
@@ -33,9 +34,9 @@ const About = () => (
                 <p className="uk-text-center">Our team is devoted to make your experience as beneficial as it can be.
                 </p>
                 <div className="uk-grid-match uk-child-width-1-3@s" uk-grid="">
-                    <div><img src={picture1} alt="club members" /></div>
-                    <div><img src={picture2} alt="past members and advisor" /></div>
-                    <div><img src={picture3} alt="at the team building activity" /></div>
+                    <div><img src={picture1} className="uk-height-medium" alt="club members" /></div>
+                    <div><img src={picture2} className="uk-height-medium" alt="past members and advisor" /></div>
+                    <div><img src={picture3} className="uk-height-medium" alt="at the team building activity" /></div>
                 </div>
 
             </div>
