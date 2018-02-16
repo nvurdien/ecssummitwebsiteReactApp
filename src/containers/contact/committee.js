@@ -4,6 +4,7 @@ import steven from './stevenespin.png';
 import alvaro from './alvarorivas.jpg';
 import pooja from './poojagajjar.jpg';
 import oscar from './oscar.jpg';
+import navie from './1274.jpeg';
 
 export const Committee = [
   {
@@ -48,11 +49,13 @@ export const Committee = [
   },
      {
     id: 6,
-    image:'',
+    image:navie,
     name:'Navie Vurdien',
     // title:'A guy',
     description:'Something',
-    email:'nvurdien@csu.fullerton.edu'
+    email:'nvurdien@csu.fullerton.edu',
+    github: 'https://github.com/nvurdien',
+    linkedin: 'https://www.linkedin.com/in/nvurdien/'
   },
      {
     id: 7,
@@ -64,7 +67,7 @@ export const Committee = [
   },
 // {
 //     id: 8,
-//     image:'',
+//     image: charles,
 //     name:'Charles Bucher',
 //     // title:'A guy',
 //     description:'Something',
@@ -72,7 +75,7 @@ export const Committee = [
 // },
 //      {
 //     id: 9,
-//     image:'',
+//     image: saqib,
 //     name:'Saqib Shahabuddin',
 //     // title:'A guy',
 //     description:'Something',
@@ -80,7 +83,7 @@ export const Committee = [
 //   },
 //      {
 //     id: 10,
-//     image:'',
+//     image: tommy,
 //     name:'Tommy Chao',
 //     // title:'A guy',
 //     description:'Something',

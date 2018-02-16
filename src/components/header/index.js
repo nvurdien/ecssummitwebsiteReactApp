@@ -22,12 +22,6 @@ export const Header = ({name}) => {
                     <div className="uk-navbar-right uk-hidden@s">
                         <a className="uk-navbar-toggle uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon=""
                            uk-toggle="target: #offcanvas-navbar">
-                            <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"
-                                 ratio="1">
-                                <rect y="9" width="20" height="2"/>
-                                <rect y="3" width="20" height="2"/>
-                                <rect y="15" width="20" height="2"/>
-                            </svg>
                         </a>
                     </div>
                 </div>

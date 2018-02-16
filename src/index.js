@@ -4,8 +4,10 @@ import { Provider } from 'react-redux'
 import { ConnectedRouter } from 'react-router-redux'
 import store, { history } from './store'
 import App from './containers/app'
+import 'font-awesome/css/font-awesome.min.css';
+import './uikit.min.css';
+import './style.css';
 
-import './index.css'
 
 const target = document.querySelector('#root');
 

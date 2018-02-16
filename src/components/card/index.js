@@ -19,12 +19,12 @@ const Card = ({image, name, title, description, email, github = null, linkedin =
                 </h3>
                 <p>
                     <a style={iconColor} href={"mailto:" + email} aria-label={name + "'s mail link"}><i
-                        className="fas fa-envelope fa-lg"/></a>
+                        className="fa fa-envelope fa-lg"/></a>
                     {github ? (<a style={iconColor} href={github} target="_blank" aria-label={name + "'s github link"}
-                                  className="uk-margin-left"><i className="fab fa-github-square fa-lg"/></a>) : null}
+                                  className="uk-margin-left"><i className="fa fa-github-square fa-lg"/></a>) : null}
                     {linkedin ? (
                         <a style={iconColor} href={linkedin} target="_blank" aria-label={name + "'s linkedin link"}
-                           className="uk-margin-left"><i className="fab fa-linkedin fa-lg"/></a>) : null}
+                           className="uk-margin-left"><i className="fa fa-linkedin fa-lg"/></a>) : null}
                 </p>
             </figcaption>
 
