@@ -25,6 +25,6 @@
   },
   "devDependencies": {
     "offline-plugin": "latest",
-    "webpack": "latest"
+    "webpack": "^3.11.0"
   }
 }
