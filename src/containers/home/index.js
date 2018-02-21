@@ -45,6 +45,10 @@ const day2Background = {
     backgroundImage: `url(${day2image})`
 };
 
+const disabledCursor = {
+    cursor: 'not-allowed'
+};
+
 const Home = () => (
     <div>
     <OffCanvasHeader name="home"/>
@@ -90,7 +94,8 @@ const Home = () => (
         <div className="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Seconds</div>
         </div>
     </div>
-    <p> <a href="https://ecssummit.typeform.com/to/CGxyHR" className="btn btn-1 btn-1a" target="_blank" rel="noopener noreferrer">Register</a> </p>
+    {/*<p> <a href="https://ecssummit.typeform.com/to/CGxyHR" className="btn btn-1 btn-1a" target="_blank" rel="noopener noreferrer" disabled="">Register</a> </p>*/}
+    <p> <a className="btn btn-1 btn-1a" style={disabledCursor} disabled="">Register Soon!</a> </p>
     </div>
     </div>
     </div>
