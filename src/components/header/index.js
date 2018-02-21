@@ -20,7 +20,7 @@ export const Header = ({name}) => {
                         <li className={name === "getinvolved" ? "uk-active" : ""}><a href="/getinvolved">Get Involved</a></li>
                     </ul>
                     <div className="uk-navbar-right uk-hidden@s">
-                        <a className="uk-navbar-toggle uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon=""
+                        <a style={colorToWhite} className="uk-navbar-toggle uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon=""
                            uk-toggle="target: #offcanvas-navbar">
                         </a>
                     </div>
