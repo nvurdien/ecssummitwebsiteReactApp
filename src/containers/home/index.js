@@ -187,16 +187,12 @@ const Home = () => (
             <h1 className="uk-text-center"><strong>Sponsors</strong></h1>
             <br />
 
-                <div className="uk-text-center uk-flex uk-flex-middle uk-child-width-1-3@m uk-child-width-1-2@s" uk-scrollspy="cls: uk-animation-fade; target: > div; repeat: true" uk-grid="">
+                <div className="uk-text-center uk-flex uk-flex-middle uk-child-width-1-2@s" uk-scrollspy="cls: uk-animation-fade; target: > div; repeat: true" uk-grid="">
                     <div>
                         <p><img src={ACMLogo} className="uk-text-middle" alt="sponsor name"/></p>
                     </div>
                     <div>
                         <p><img src={ACMWLogo} height="auto" width="200px" alt="sponsor name"/></p>
-
-                    </div>
-                    <div>
-                        <p><img src="http://shashgrewal.com/wp-content/uploads/2015/05/default-placeholder-300x300.png" alt="sponsor name"/></p>
 
                     </div>
                 </div>
