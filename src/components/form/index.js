@@ -88,7 +88,7 @@ class Form extends React.Component {
         if( !data.email || !data.name || !data.message){
             document.getElementById('invalid').innerHTML = '';
             let prev = false;
-            document.getElementById('invalid').innerHTML += '<a class="uk-alert-close" uk-close=""></a>No';
+            document.getElementById('invalid').innerHTML += 'No';
             if(!data.email){
                 document.getElementById('invalid').innerHTML += ' Email';
                 document.getElementById("email").classList.add("uk-form-danger");
@@ -109,7 +109,7 @@ class Form extends React.Component {
             document.getElementById('invalid').style.display = 'block';
         }
         else if( !Form.validEmail(data.email) ) {   // if email is not valid show error
-            document.getElementById('invalid').innerHTML = '<a class="uk-alert-close" uk-close=""></a>Invalid Email';
+            document.getElementById('invalid').innerHTML = 'Invalid Email';
             document.getElementById('invalid').style.display = 'block';
             document.getElementById("email").classList.add("uk-form-danger");
             return false;
