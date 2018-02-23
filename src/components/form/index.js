@@ -79,13 +79,15 @@ class Form extends React.Component {
         */
 
         document.getElementById('invalid').style.display = 'none';
-        document.getElementById('thankyou_message').style.display = 'none';
+        document.getElementById('thankyou_message').style.display = 'block';
+        document.getElementById('thankyou_message').innerHTML = '<p>Sending...</p>';
 
         document.getElementById("email").classList.remove("uk-form-danger");
         document.getElementById("name").classList.remove("uk-form-danger");
         document.getElementById("message").classList.remove("uk-form-danger");
 
         if( !data.email || !data.name || !data.message){
+            document.getElementById('thankyou_message').style.display = 'none';
             document.getElementById('invalid').innerHTML = '';
             let prev = false;
             document.getElementById('invalid').innerHTML += 'No';
@@ -109,6 +111,7 @@ class Form extends React.Component {
             document.getElementById('invalid').style.display = 'block';
         }
         else if( !Form.validEmail(data.email) ) {   // if email is not valid show error
+            document.getElementById('thankyou_message').style.display = 'none';
             document.getElementById('invalid').innerHTML = 'Invalid Email';
             document.getElementById('invalid').style.display = 'block';
             document.getElementById("email").classList.add("uk-form-danger");
@@ -122,6 +125,7 @@ class Form extends React.Component {
             xhr.onreadystatechange = function() {
                 console.log( xhr.status, xhr.statusText );
                 console.log(xhr.responseText);
+                document.getElementById('thankyou_message').innerHTML = '<p>Message Sent! Thank you!</p>';
                 document.getElementById('thankyou_message').style.display = 'block';
             };
             // url encode form data for sending as post data
@@ -136,7 +140,7 @@ class Form extends React.Component {
         return (
             <div>
                 <div id="thankyou_message" style={{display:"none"}} className="uk-alert-success" uk-alert="">
-                    <p>Message Sent! Thank you!</p>
+
                 </div>
                 <div id="invalid" style={{display:"none"}} className="uk-alert-danger" uk-alert="">
 
