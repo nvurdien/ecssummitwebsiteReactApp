@@ -168,7 +168,7 @@ class Form extends React.Component {
                         <input alt="name" className="uk-input" id="name" label="" required="" name="name" placeholder="Your Name*" title="name"/>
                     </div>
                     <div className="uk-margin">
-                        <input alt="email" className="uk-input" id="email" label="" required="" name="email" placeholder="Your Email*" title="email" type="text"/>
+                        <input alt="email" className="uk-input" id="email" label="" required="" name="email" placeholder="Your Email*" title="email" type="email"/>
                     </div>
                     <div className="uk-margin">
                         <textarea alt="message" className="uk-textarea" id="message" required="" label="" name="message" placeholder="Your Message*" rows="5" title="message"/>
