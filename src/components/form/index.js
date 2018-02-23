@@ -125,6 +125,9 @@ class Form extends React.Component {
             document.getElementById("email").classList.add("uk-form-success");
             document.getElementById("name").classList.add("uk-form-success");
             document.getElementById("message").classList.add("uk-form-success");
+            document.getElementById("submit").innerText = "Sending";
+            document.getElementById("submit").setAttribute("disabled", "");
+
             let xhr = new XMLHttpRequest();
             xhr.open('POST', url);
             // xhr.withCredentials = true;
@@ -134,6 +137,14 @@ class Form extends React.Component {
                 console.log(xhr.responseText);
                 document.getElementById('thankyou_message').innerHTML = '<p>Message Sent! Thank you!</p>';
                 document.getElementById('thankyou_message').style.display = 'block';
+                document.getElementById("email").classList.remove("uk-form-success");
+                document.getElementById("name").classList.remove("uk-form-success");
+                document.getElementById("message").classList.remove("uk-form-success");
+                document.getElementById("submit").innerText = "Submit";
+                document.getElementById("submit").removeAttribute("disabled");
+                document.getElementById("email").value = "";
+                document.getElementById("name").value = "";
+                document.getElementById("message").value = "";
             };
             // url encode form data for sending as post data
             let encoded = Object.keys(data).map(function(k) {
@@ -168,7 +179,7 @@ class Form extends React.Component {
                         <textarea alt="message" className="uk-textarea" id="message" required="" label="" name="message" placeholder="Your Message*" rows="5" title="message"/>
                     </div>
                     <div className="uk-margin uk-text-center" uk-margin="">
-                        <button type="submit" value="Submit" className="uk-button uk-button-default uk-first-column">Submit</button>
+                        <button type="submit" value="Submit" id="submit" className="uk-button uk-button-default uk-first-column">Submit</button>
                     </div>
                 </fieldset>
             </form>
