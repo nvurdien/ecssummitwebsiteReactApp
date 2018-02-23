@@ -86,6 +86,10 @@ class Form extends React.Component {
         document.getElementById("name").classList.remove("uk-form-danger");
         document.getElementById("message").classList.remove("uk-form-danger");
 
+        document.getElementById("email").classList.remove("uk-form-success");
+        document.getElementById("email").classList.remove("uk-form-success");
+        document.getElementById("email").classList.remove("uk-form-success");
+
         if( !data.email || !data.name || !data.message){
             document.getElementById('thankyou_message').style.display = 'none';
             document.getElementById('invalid').innerHTML = '';
@@ -118,6 +122,9 @@ class Form extends React.Component {
             return false;
         } else {
             let url = "https://script.google.com/macros/s/AKfycbzGKqQ5Eujl6V-WYuRNoaXzG5Z-q1KOMCQBuyTkOwriXcLe9rWC/exec";  //
+            document.getElementById("email").classList.add("uk-form-success");
+            document.getElementById("email").classList.add("uk-form-success");
+            document.getElementById("email").classList.add("uk-form-success");
             let xhr = new XMLHttpRequest();
             xhr.open('POST', url);
             // xhr.withCredentials = true;
