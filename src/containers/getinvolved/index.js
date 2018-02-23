@@ -8,7 +8,7 @@ import {Footer} from "../../components/footer";
 
 export default () => (
     <div>
-        <OffCanvasHeader name="about" />
+        <OffCanvasHeader name="getinvolved" />
         <Title title="Get Involved" image={HeadImage} subtext="Want to help out?" />
         <Header name="getinvolved" />
         <div className="uk-section uk-section-muted uk-padding-large">

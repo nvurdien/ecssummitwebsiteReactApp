@@ -4,7 +4,7 @@
     <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="myValues">
         <value>
-          <list size="19">
+          <list size="20">
             <item index="0" class="java.lang.String" itemvalue="uk-sticky" />
             <item index="1" class="java.lang.String" itemvalue="uk-navbar" />
             <item index="2" class="java.lang.String" itemvalue="uk-offcanvas" />
@@ -24,10 +24,12 @@
             <item index="16" class="java.lang.String" itemvalue="allowfullscreen" />
             <item index="17" class="java.lang.String" itemvalue="uk-responsive" />
             <item index="18" class="java.lang.String" itemvalue="uk-video" />
+            <item index="19" class="java.lang.String" itemvalue="disabled" />
           </list>
         </value>
       </option>
       <option name="myCustomValuesEnabled" value="true" />
     </inspection_tool>
+    <inspection_tool class="HtmlUnknownTarget" enabled="false" level="WARNING" enabled_by_default="false" />
   </profile>
 </component>
