@@ -68,7 +68,7 @@ const Home = () => (
         <div className="uk-child-width-1-1@s uk-text-center uk-grid-collapse uk-article" uk-grid="">
     <div>
     <p>
-    <h1 className="uk-article-title uk-light"><span>ECS Diversity and Leadership Summit</span></h1>
+    <h1 className="uk-article-title uk-light" style={{textShadow: "4px 2px 4px #000000"}}><span>ECS Diversity and Leadership Summit</span></h1>
     </p>
     </div>
     <div style={lineHeightChange}>

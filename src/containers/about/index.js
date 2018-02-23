@@ -9,7 +9,6 @@ import picture2 from './4people.JPG';
 import picture3 from './Copy of 2017-04-29 11.45.39.jpg';
 import {Footer} from "../../components/footer";
 
-
 const About = () => (
     <div>
         <OffCanvasHeader name="about" />
