@@ -20,7 +20,7 @@ const About = () => (
                 <article className="uk-article">
                     <h1 className="uk-article-title">Our History</h1>
                     <img className="uk-align-center uk-align-right@m uk-margin-remove-adjacent" src={Presidents} width="400" alt="Sara and Alvaro (Past Club Presidents)" />
-                        <p className="uk-text-lead">The first Leadership & Diversity Summit was hosted by ACM & ACM-W last year on April 29th, 2017.</p>
+                        <p className="uk-text-lead">The first Diversity & Leadership Summit was hosted by ACM & ACM-W last year on April 29th, 2017.</p>
                         <p>Alvaro Rivera, the former president of Association for Computing Machinery, and Sara Lipowsky the former president of Association for Computing Machinery - Women led a team to design and host this opportunity for students. The purpose was to promote diversity and prepare our students with necessary leadership skills to succeed in the workforce.</p>
                 </article>
             </div>
