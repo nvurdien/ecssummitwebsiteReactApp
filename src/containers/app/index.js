@@ -2,8 +2,9 @@ import React from 'react';
 import { Route } from 'react-router-dom'
 import Home from '../home'
 import About from '../about'
-import Contact from '../contact'
+import Committee from '../committee'
 import GetInvolved from '../getinvolved'
+import Contact from "../contactUs";
 
 const App = () => (
     <div>
@@ -12,6 +13,7 @@ const App = () => (
             <Route exact path="/about" component={About} />
             <Route exact path="/contact" component={Contact}/>
             <Route exact path="/getinvolved" component={GetInvolved}/>
+            <Route exact path="/committee"  component={Committee}/>
         </main>
     </div>
 );

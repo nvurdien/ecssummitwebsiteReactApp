@@ -29,7 +29,7 @@ const About = () => (
         <div className="uk-section uk-section-default uk-padding-large">
             <div className="uk-container">
                 <div className="uk-text-center">
-                <iframe src="https://www.youtube.com/embed/ESkN8w20hcU" width="560" height="315" frameBorder="0" allowFullScreen="" uk-responsive="" uk-video="automute: true"/>
+                <iframe title="past summit video" src="https://www.youtube.com/embed/ESkN8w20hcU" width="560" height="315" frameBorder="0" allowFullScreen="" uk-responsive="" uk-video="automute: true"/>
                 </div>
                 <p className="uk-text-center">Our team is devoted to make your experience as beneficial as it can be.
                 </p>

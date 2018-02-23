@@ -2,11 +2,13 @@
   "name": "react-redux-example",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://nvurdien.github.io/ecssummitwebsiteReactApp",
   "dependencies": {
     "font-awesome": "^4.7.0",
     "history": "^4.7.2",
     "jquery": "^3.3.1",
     "nodemailer": "^4.4.2",
+    "path": "^0.12.7",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.6",
@@ -14,16 +16,21 @@
     "react-router-redux": "^5.0.0-alpha.9",
     "react-scripts": "1.1.1",
     "redux": "^3.7.2",
-    "redux-thunk": "^2.2.0"
+    "redux-thunk": "^2.2.0",
+    "webpack-dev-server": "^2.11.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "build:custom": "node scripts/webpack"
+    "build:custom": "node scripts/webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "webpack" : "webpack"
   },
   "devDependencies": {
+    "gh-pages": "^1.1.0",
     "offline-plugin": "latest",
     "webpack": "^3.11.0"
   }

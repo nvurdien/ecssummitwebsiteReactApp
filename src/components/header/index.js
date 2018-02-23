@@ -16,6 +16,7 @@ export const Header = ({name}) => {
                 <div className="uk-navbar-right uk-panel uk-margin-right">
                     <ul className="uk-navbar-nav uk-visible@s">
                         <li className={name === "about" ? "uk-active" : ""}><a href="/about">About Us</a></li>
+                        <li className={name === "committee" ? "uk-active" : ""}><a href="/committee">Committee</a></li>
                         <li className={name === "contact" ? "uk-active" : ""}><a href="/contact">Contact Us</a></li>
                         <li className={name === "getinvolved" ? "uk-active" : ""}><a href="/getinvolved">Get Involved</a></li>
                     </ul>

@@ -4,7 +4,7 @@
     <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="myValues">
         <value>
-          <list size="20">
+          <list size="24">
             <item index="0" class="java.lang.String" itemvalue="uk-sticky" />
             <item index="1" class="java.lang.String" itemvalue="uk-navbar" />
             <item index="2" class="java.lang.String" itemvalue="uk-offcanvas" />
@@ -25,11 +25,16 @@
             <item index="17" class="java.lang.String" itemvalue="uk-responsive" />
             <item index="18" class="java.lang.String" itemvalue="uk-video" />
             <item index="19" class="java.lang.String" itemvalue="disabled" />
+            <item index="20" class="java.lang.String" itemvalue="label" />
+            <item index="21" class="java.lang.String" itemvalue="uk-margin" />
+            <item index="22" class="java.lang.String" itemvalue="uk-close" />
+            <item index="23" class="java.lang.String" itemvalue="uk-alert" />
           </list>
         </value>
       </option>
       <option name="myCustomValuesEnabled" value="true" />
     </inspection_tool>
     <inspection_tool class="HtmlUnknownTarget" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="WebpackConfigHighlighting" enabled="false" level="WARNING" enabled_by_default="false" />
   </profile>
 </component>
