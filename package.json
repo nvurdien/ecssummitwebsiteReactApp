@@ -1,8 +1,6 @@
 {
   "name": "react-redux-example",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "http://nvurdien.github.io/ecssummitwebsiteReactApp",
   "dependencies": {
     "font-awesome": "^4.7.0",
     "history": "^4.7.2",

@@ -133,7 +133,6 @@ class Form extends React.Component {
     }
 
     render() {
-        {/*<form onSubmit={Form.handleSubmit}>*/}
         return (
             <div>
                 <div id="thankyou_message" style={{display:"none"}} className="uk-alert-success" uk-alert="">
