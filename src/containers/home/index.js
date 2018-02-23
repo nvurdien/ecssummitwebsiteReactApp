@@ -68,7 +68,7 @@ const Home = () => (
         <div className="uk-child-width-1-1@s uk-text-center uk-grid-collapse uk-article" uk-grid="">
     <div>
     <p>
-    <h1 className="uk-article-title uk-light"><span>ECS Leadership and Diversity Summit</span></h1>
+    <h1 className="uk-article-title uk-light"><span>ECS Diversity and Leadership Summit</span></h1>
     </p>
     </div>
     <div style={lineHeightChange}>
@@ -106,7 +106,7 @@ const Home = () => (
 
     <div className="uk-section uk-section-primary uk-padding-large uk-flex uk-flex-middle">
         <div className="uk-text-center uk-margin-large-left@s uk-margin-large-right@s uk-padding-large@s uk-padding-remove-top uk-padding-remove-bottom" style={colorToWhite}>
-            <h4>The ECS Leadership and Diversity Summit is an event to promote diversity and provide students with professional leadership training. The event will be hosted by a mixture of companies, industry professionals and student clubs. Many of the events will be deliberately interactive, the goal being that the attendees walk away with hands-on experience with specific leadership skills.
+            <h4>The ECS Diversity and Leadership Summit is an event to promote diversity and provide students with professional leadership training. The event will be hosted by a mixture of companies, industry professionals and student clubs. Many of the events will be deliberately interactive, the goal being that the attendees walk away with hands-on experience with specific leadership skills.
             </h4>
         </div>
     </div>
