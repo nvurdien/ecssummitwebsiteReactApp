@@ -1,4 +1,6 @@
+
 import React from 'react';
+import './style.css';
 
 class Form extends React.Component {
     constructor() {
@@ -10,6 +12,7 @@ class Form extends React.Component {
     getFormData(event) {
         let form = event.target;
         let elements = form.elements; // all form elements
+        // eslint-disable-next-line
         let fields = Object.keys(elements).map(function (k) {
             if (elements[k].name !== undefined) {
                 return elements[k].name;
@@ -59,7 +62,7 @@ class Form extends React.Component {
         return re.test(email);
     }
 
-    validateHuman(honeypot) {
+    static validateHuman(honeypot) {
         if (honeypot) {  //if hidden form filled up
             console.log("Robot Detected!");
             return true;
@@ -78,9 +81,7 @@ class Form extends React.Component {
         }
         */
 
-        document.getElementById('invalid').style.display = 'none';
-        document.getElementById('thankyou_message').style.display = 'block';
-        document.getElementById('thankyou_message').innerHTML = '<p>Sending...</p>';
+        document.getElementById('message_status').innerHTML = '<div id="thankyou_message" class="uk-alert-success" uk-alert=""><p>Sending ...</p></div>';
 
         document.getElementById("email").classList.remove("uk-form-danger");
         document.getElementById("name").classList.remove("uk-form-danger");
@@ -91,37 +92,35 @@ class Form extends React.Component {
         document.getElementById("message").classList.remove("uk-form-success");
 
         if( !data.email || !data.name || !data.message){
-            document.getElementById('thankyou_message').style.display = 'none';
-            document.getElementById('invalid').innerHTML = '';
             let prev = false;
-            document.getElementById('invalid').innerHTML += 'No';
+            let innertext = "<div id=\"invalid\" class=\"uk-alert-danger\" uk-alert=\"\"> No";
             if(!data.email){
-                document.getElementById('invalid').innerHTML += ' Email';
+                innertext += ' Email';
                 document.getElementById("email").classList.add("uk-form-danger");
                 prev = true;
             }
             if(!data.name){
-                if(prev) document.getElementById('invalid').innerHTML += ',';
+                if(prev) innertext += ',';
                 document.getElementById("name").classList.add("uk-form-danger");
-                document.getElementById('invalid').innerHTML += ' Name';
+                innertext += ' Name';
                 prev = true;
             }
             if(!data.message){
-                if(prev) document.getElementById('invalid').innerHTML += ',';
+                if(prev) innertext += ',';
                 document.getElementById("message").classList.add("uk-form-danger");
-                document.getElementById('invalid').innerHTML += ' Message';
+                innertext += ' Message';
             }
-            document.getElementById('invalid').innerHTML += ' provided';
-            document.getElementById('invalid').style.display = 'block';
+            // language=HTML
+            innertext += ' provided </div>';
+            document.getElementById("message_status").innerHTML = innertext;
         }
         else if( !Form.validEmail(data.email) ) {   // if email is not valid show error
-            document.getElementById('thankyou_message').style.display = 'none';
-            document.getElementById('invalid').innerHTML = 'Invalid Email';
-            document.getElementById('invalid').style.display = 'block';
+            document.getElementById('message_status').innerHTML = '<div id="invalid" class="uk-alert-danger" uk-alert="">Invalid Email</div>';
             document.getElementById("email").classList.add("uk-form-danger");
             return false;
         } else {
             let url = "https://script.google.com/macros/s/AKfycbzGKqQ5Eujl6V-WYuRNoaXzG5Z-q1KOMCQBuyTkOwriXcLe9rWC/exec";  //
+            // let url = ""; // for testing
             document.getElementById("email").classList.add("uk-form-success");
             document.getElementById("name").classList.add("uk-form-success");
             document.getElementById("message").classList.add("uk-form-success");
@@ -135,8 +134,7 @@ class Form extends React.Component {
             xhr.onreadystatechange = function() {
                 console.log( xhr.status, xhr.statusText );
                 console.log(xhr.responseText);
-                document.getElementById('thankyou_message').innerHTML = '<p>Message Sent! Thank you!</p>';
-                document.getElementById('thankyou_message').style.display = 'block';
+                document.getElementById('message_status').innerHTML = '<div id="thankyou_message" class="uk-alert-success" uk-alert=""><p>Message Sent! Thank you!</p></div>';
                 document.getElementById("email").classList.remove("uk-form-success");
                 document.getElementById("name").classList.remove("uk-form-success");
                 document.getElementById("message").classList.remove("uk-form-success");
@@ -157,10 +155,7 @@ class Form extends React.Component {
     render() {
         return (
             <div>
-                <div id="thankyou_message" style={{display:"none"}} className="uk-alert-success" uk-alert="">
-
-                </div>
-                <div id="invalid" style={{display:"none"}} className="uk-alert-danger" uk-alert="">
+                <div id="message_status">
 
                 </div>
             <form onSubmit={this.handleSubmit}>
