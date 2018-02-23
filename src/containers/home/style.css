@@ -1,3 +1,13 @@
+
+
+.uk-article-title{
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#mainpage{
+    text-shadow: 2px 2px 4px #000000;
+}
+
 .uk-navbar-nav > li > a,
 .uk-navbar-container .uk-navbar-item:not(.uk-logo),
 .uk-navbar-container .uk-navbar-toggle {
@@ -60,7 +70,7 @@
 
 .uk-navbar-container .uk-navbar-nav > li > a {
     position: relative;
-    color: rgba(255, 255, 255);
+    color: rgba(255, 255, 255, 1);
     font-size: .875rem;
 }
 
@@ -100,12 +110,13 @@
     padding-right: 1.5em;
 */
     letter-spacing: 1px;
-    font-weight: 700px;
+    font-weight: 400;
     outline: none;
     position: relative;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
+    text-shadow: none;
 }
 
 .btn:after {
@@ -115,6 +126,7 @@
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
+    text-shadow: none;
 }
 
 
@@ -129,6 +141,7 @@
     text-transform: none;
     /*	line-height: 1;*/
     position: relative;
+    text-shadow: none;
     /*	-webkit-font-smoothing: antialiased;*/
 }
 
@@ -137,6 +150,7 @@
 .btn-1 {
     border: 2px solid #fff;
     border-radius: 10px;
+    text-shadow: none;
 
 }
 
@@ -147,6 +161,7 @@
     background: #fff;
     border: 2px solid #fff;
     text-decoration: none;
+    text-shadow: none;
 }
 
 .uk-card-secondary.uk-card-hover {

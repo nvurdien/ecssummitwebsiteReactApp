@@ -53,7 +53,7 @@ const Home = () => (
     <div>
     <OffCanvasHeader name="home"/>
 
-    <div className="uk-background-muted">
+    <div id="mainpage" className="uk-background-muted">
 
         <div className="uk-cover-container uk-background-cover uk-background-default" style={backgroundStyle}>
         <video id="home_video_element" autoPlay="" loop alt="summit preview" muted="" playsinline="" uk-cover="">
@@ -104,39 +104,44 @@ const Home = () => (
 
         <Header name="home" />
 
-    <div className="uk-section uk-section-primary uk-padding-large uk-flex uk-flex-middle">
+    <div className="uk-section uk-section-primary uk-padding-large uk-flex uk-flex-middle uk-margin uk-margin-remove-top">
         <div className="uk-text-center uk-margin-large-left@s uk-margin-large-right@s uk-padding-large@s uk-padding-remove-top uk-padding-remove-bottom" style={colorToWhite}>
             <h4>The ECS Diversity and Leadership Summit is an event to promote diversity and provide students with professional leadership training. The event will be hosted by a mixture of companies, industry professionals and student clubs. Many of the events will be deliberately interactive, the goal being that the attendees walk away with hands-on experience with specific leadership skills.
             </h4>
         </div>
     </div>
+<div className="uk-grid-collapse uk-child-width-1-1@s" uk-grid="">
+        <div className="uk-card uk-card-secondary uk-grid-collapse uk-child-width-1-2@s uk-margin uk-margin-remove-bottom" uk-grid="">
+            <div title="at team building activity at event" className="uk-card-media-left uk-card uk-text-middle uk-card-secondary uk-box-shadow-large uk-box-shadow-hover-xlarge uk-background-blend-overlay uk-text-center uk-background-secondary uk-background-cover uk-card-body uk-background-fixed" style={day1Background} alt="Summit Intro picture">
+                <canvas width="400" height="250"/>
+            </div>
 
-    <div className="uk-section uk-section-default">
-        <div className="uk-container">
-            <div className="uk-child-width-1-2@s uk-grid-match" uk-grid="">
-                <div>
-                    <div title="at team building activity at event" className="uk-card uk-text-middle uk-card-secondary uk-box-shadow-large uk-box-shadow-hover-xlarge uk-background-blend-overlay uk-text-center uk-background-secondary uk-background-cover uk-card-body uk-border-rounded uk-background-fixed" style={day1Background} alt="Summit Intro picture">
-                        <p className="uk-text-middle" style={colorToWhite}>
-                            <h2 className="">Day 1</h2>
-                            <span style={colorToWhite}>Active Listening
-                            <br /> Keynote Speaker
-                            <br /> Speed Mentoring</span>
-                        </p>
-                    </div>
+            <div>
+                <div className="uk-card-body uk-text-center">
+                    <h3 className="uk-card-title">Day 1</h3>
+                    <p style={colorToWhite}>Active Listening</p>
+                    <p style={colorToWhite}>Keynote Speaker</p>
+                    <p style={colorToWhite}>Speed Mentoring</p>
                 </div>
-                <div>
-                    <div title="at opening keynote speech" className="uk-card uk-height-1-1 uk-card-secondary uk-box-shadow-large uk-box-shadow-bottom uk-box-shadow-hover-xlarge uk-text-center uk-background-blend-overlay uk-background-secondary uk-background-cover uk-card-body uk-border-rounded uk-background-fixed" style={day2Background} alt="Summit Intro picture">
-                        <p style={colorToWhite}>
-                            <h2>Day 2</h2>
-                            <span style={colorToWhite}>Strengthsfinder
-                            <br /> Workshops
-                            <br /> Panel Discussion</span>
-                        </p>
-                    </div>
+            </div>
+
+        </div>
+
+        <div className="uk-card uk-card-primary uk-grid-collapse uk-child-width-1-2@s uk-margin uk-margin-remove-top" uk-grid="">
+            <div title="at team building activity at event" className="uk-flex-last@s uk-card-media-right uk-card uk-text-middle uk-card-secondary uk-box-shadow-large uk-box-shadow-hover-xlarge uk-background-blend-overlay uk-text-center uk-background-secondary uk-background-cover uk-card-body uk-background-fixed" style={day2Background} alt="Summit Intro picture">
+                <canvas width="400" height="250"/>
+            </div>
+            <div>
+                <div className="uk-card-body uk-text-center">
+                    <h3 className="uk-card-title">Day 2</h3>
+                    <p style={colorToWhite}>Strengthsfinder</p>
+                    <p style={colorToWhite}>Workshops</p>
+                    <p style={colorToWhite}>Panel Discussion</p>
+
                 </div>
             </div>
         </div>
-    </div>
+</div>
     <div className="uk-section uk-section-muted uk-padding-large">
         <div className="uk-container">
 
