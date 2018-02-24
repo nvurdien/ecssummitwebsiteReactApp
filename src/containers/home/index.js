@@ -190,7 +190,7 @@ const Home = () => (
     <div className="uk-section uk-section-default">
         <div className="uk-container">
 
-            <h1 className="uk-text-center"><strong>Sponsors</strong></h1>
+            <h1 className="uk-text-center uk-text-bold" style={{textShadow: "0px 1px 1px gray"}}>Sponsors</h1>
             <br />
 
                 <div className="uk-text-center uk-flex uk-flex-middle uk-child-width-1-2@s"  uk-grid="">
