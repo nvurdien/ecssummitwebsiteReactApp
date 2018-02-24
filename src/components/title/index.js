@@ -9,7 +9,8 @@ export const Title = ({title, image, subtext}) => {
     const parallaxStyles = {
         transform: 'scale(0.5)',
         opacity: '0',
-        color: 'white'
+        color: 'white',
+        textShadow: "1px 1px 1px #000000",
     };
 
     return <div>
@@ -17,7 +18,7 @@ export const Title = ({title, image, subtext}) => {
         <div className="uk-width-1-2@m uk-text-center">
             <div className="uk-overlay uk-flex-center">
                 <br />
-                    <h1 className="uk-heading-line">{title}</h1>
+                    <h1 style={{textShadow: "1px 1px 2px #000000"}} className="uk-heading-line">{title}</h1>
                     <p uk-parallax="opacity: 0,1; scale: 0.5,1; viewport: 0.5;" style={parallaxStyles}>{subtext}</p>
             </div>
         </div>
