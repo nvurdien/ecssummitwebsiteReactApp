@@ -106,18 +106,18 @@ const Home = () => (
 
     <div className="uk-section uk-section-primary uk-padding-large uk-flex uk-flex-middle uk-margin uk-margin-remove-top uk-margin-remove-bottom">
         <div className="uk-text-center uk-margin-large-left@s uk-margin-large-right@s uk-padding-large@s uk-padding-remove-top uk-padding-remove-bottom" style={colorToWhite}>
-            <h2 style={{textShadow: "1px 1px 3px #000000"}}>What is ECS Leadership and Diversity Summit?</h2>
-            <h4 style={{textShadow: "1px 1px 2px #000000", color:"white"}}>It is an event to promote diversity and provide students with professional leadership training. The event will be hosted by a mixture of companies, industry professionals and student clubs. Many of the events will be deliberately interactive, the goal being that the attendees walk away with hands-on experience with specific leadership skills.
+            <h2 style={{textShadow: "1px 1px 2px #000000"}}>What is ECS Leadership and Diversity Summit?</h2>
+            <h4 style={{textShadow: "1px 1px 1px #000000", color:"white"}}>It is an event to promote diversity and provide students with professional leadership training. The event will be hosted by a mixture of companies, industry professionals and student clubs. Many of the events will be deliberately interactive, the goal being that the attendees walk away with hands-on experience with specific leadership skills.
             </h4>
         </div>
     </div>
 <div className="uk-grid-collapse uk-child-width-1-1@s" uk-grid="">
         <div uk-scrollspy="cls: uk-animation-slide-left; target: > div; offset-top: -200;" className="uk-card uk-card-secondary uk-grid-collapse uk-child-width-1-2@s uk-margin uk-margin-remove-bottom" uk-grid="">
-            <div title="at team building activity at event" className="uk-card-media-left uk-card uk-text-middle uk-card-secondary uk-box-shadow-large uk-box-shadow-hover-xlarge uk-background-blend-overlay uk-text-center uk-background-secondary uk-background-cover uk-card-body uk-background-fixed" style={day1Background} alt="Summit Intro picture">
-                <canvas width="400" height="250"/>
+            <div title="at team building activity at event" className="uk-card-media-left uk-box-shadow-large uk-background-blend-screen uk-text-center uk-background-primary uk-background-cover uk-background-fixed" style={day1Background} alt="Summit Intro picture">
+                <canvas width="400" height="350"/>
             </div>
 
-            <div>
+            <div className="uk-flex uk-flex-middle uk-flex-center">
                 <div className="uk-card-body uk-text-center">
                     <h3 className="uk-card-title" style={{textShadow: "1px 1px 4px #000000"}}>Day 1</h3>
                     <p style={{textShadow: "1px 1px 2px #000000", color:"white"}}>Active Listening</p>
@@ -129,10 +129,10 @@ const Home = () => (
         </div>
 
         <div uk-scrollspy="cls: uk-animation-slide-right; target: > div; offset-top: -200;" className="uk-card uk-card-primary uk-grid-collapse uk-child-width-1-2@s uk-margin uk-margin-remove-top uk-margin-remove-bottom" uk-grid="">
-            <div title="at team building activity at event" className="uk-flex-last@s uk-card-media-right uk-card uk-text-middle uk-card-secondary uk-box-shadow-large uk-box-shadow-hover-xlarge uk-background-blend-overlay uk-text-center uk-background-secondary uk-background-cover uk-card-body uk-background-fixed" style={day2Background} alt="Summit Intro picture">
-                <canvas width="400" height="250"/>
+            <div title="at team building activity at event" className="uk-flex-last@s uk-card-media-right uk-box-shadow-large uk-background-blend-screen uk-text-center uk-background-primary uk-background-cover uk-background-fixed" style={day2Background} alt="Summit Intro picture">
+                <canvas width="400" height="350"/>
             </div>
-            <div>
+            <div className="uk-flex uk-flex-middle uk-flex-center">
                 <div className="uk-card-body uk-text-center">
                     <h3 className="uk-card-title" style={{textShadow: "1px 1px 4px #000000"}}>Day 2</h3>
                     <p style={{textShadow: "1px 1px 2px #000000", color:"white"}}>Strengthsfinder</p>
