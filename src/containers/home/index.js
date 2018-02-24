@@ -68,7 +68,7 @@ const Home = () => (
         <div className="uk-child-width-1-1@s uk-text-center uk-grid-collapse uk-article" uk-grid="">
     <div>
     <p>
-    <h1 className="uk-article-title uk-light" style={{textShadow: "4px 2px 4px #000000"}}><span>ECS Diversity and Leadership Summit</span></h1>
+    <h1 className="uk-article-title uk-light" style={{textShadow: "4px 2px 4px #000000"}}>ECS Diversity and Leadership Summit</h1>
     </p>
     </div>
     <div style={lineHeightChange}>
@@ -104,79 +104,80 @@ const Home = () => (
 
         <Header name="home" />
 
-    <div className="uk-section uk-section-primary uk-padding-large uk-flex uk-flex-middle uk-margin uk-margin-remove-top">
+    <div className="uk-section uk-section-primary uk-padding-large uk-flex uk-flex-middle uk-margin uk-margin-remove-top uk-margin-remove-bottom">
         <div className="uk-text-center uk-margin-large-left@s uk-margin-large-right@s uk-padding-large@s uk-padding-remove-top uk-padding-remove-bottom" style={colorToWhite}>
-            <h4>The ECS Diversity and Leadership Summit is an event to promote diversity and provide students with professional leadership training. The event will be hosted by a mixture of companies, industry professionals and student clubs. Many of the events will be deliberately interactive, the goal being that the attendees walk away with hands-on experience with specific leadership skills.
+            <h2 style={{textShadow: "1px 1px 3px #000000"}}>What is ECS Leadership and Diversity Summit?</h2>
+            <h4 style={{textShadow: "1px 1px 2px #000000", color:"white"}}>It is an event to promote diversity and provide students with professional leadership training. The event will be hosted by a mixture of companies, industry professionals and student clubs. Many of the events will be deliberately interactive, the goal being that the attendees walk away with hands-on experience with specific leadership skills.
             </h4>
         </div>
     </div>
 <div className="uk-grid-collapse uk-child-width-1-1@s" uk-grid="">
-        <div className="uk-card uk-card-secondary uk-grid-collapse uk-child-width-1-2@s uk-margin uk-margin-remove-bottom" uk-grid="">
+        <div uk-scrollspy="cls: uk-animation-slide-left; target: > div; offset-top: -200;" className="uk-card uk-card-secondary uk-grid-collapse uk-child-width-1-2@s uk-margin uk-margin-remove-bottom" uk-grid="">
             <div title="at team building activity at event" className="uk-card-media-left uk-card uk-text-middle uk-card-secondary uk-box-shadow-large uk-box-shadow-hover-xlarge uk-background-blend-overlay uk-text-center uk-background-secondary uk-background-cover uk-card-body uk-background-fixed" style={day1Background} alt="Summit Intro picture">
                 <canvas width="400" height="250"/>
             </div>
 
             <div>
                 <div className="uk-card-body uk-text-center">
-                    <h3 className="uk-card-title">Day 1</h3>
-                    <p style={colorToWhite}>Active Listening</p>
-                    <p style={colorToWhite}>Keynote Speaker</p>
-                    <p style={colorToWhite}>Speed Mentoring</p>
+                    <h3 className="uk-card-title" style={{textShadow: "1px 1px 4px #000000"}}>Day 1</h3>
+                    <p style={{textShadow: "1px 1px 2px #000000", color:"white"}}>Active Listening</p>
+                    <p style={{textShadow: "1px 1px 2px #000000", color:"white"}}>Keynote Speaker</p>
+                    <p  style={{textShadow: "1px 1px 2px #000000", color:"white"}}>Speed Mentoring</p>
                 </div>
             </div>
 
         </div>
 
-        <div className="uk-card uk-card-primary uk-grid-collapse uk-child-width-1-2@s uk-margin uk-margin-remove-top" uk-grid="">
+        <div uk-scrollspy="cls: uk-animation-slide-right; target: > div; offset-top: -200;" className="uk-card uk-card-primary uk-grid-collapse uk-child-width-1-2@s uk-margin uk-margin-remove-top uk-margin-remove-bottom" uk-grid="">
             <div title="at team building activity at event" className="uk-flex-last@s uk-card-media-right uk-card uk-text-middle uk-card-secondary uk-box-shadow-large uk-box-shadow-hover-xlarge uk-background-blend-overlay uk-text-center uk-background-secondary uk-background-cover uk-card-body uk-background-fixed" style={day2Background} alt="Summit Intro picture">
                 <canvas width="400" height="250"/>
             </div>
             <div>
                 <div className="uk-card-body uk-text-center">
-                    <h3 className="uk-card-title">Day 2</h3>
-                    <p style={colorToWhite}>Strengthsfinder</p>
-                    <p style={colorToWhite}>Workshops</p>
-                    <p style={colorToWhite}>Panel Discussion</p>
+                    <h3 className="uk-card-title" style={{textShadow: "1px 1px 4px #000000"}}>Day 2</h3>
+                    <p style={{textShadow: "1px 1px 2px #000000", color:"white"}}>Strengthsfinder</p>
+                    <p style={{textShadow: "1px 1px 2px #000000", color:"white"}}>Workshops</p>
+                    <p style={{textShadow: "1px 1px 2px #000000", color:"white"}}>Panel Discussion</p>
 
                 </div>
             </div>
         </div>
 </div>
-    <div className="uk-section uk-section-muted uk-padding-large">
+    <div  uk-scrollspy="cls: uk-animation-slide-bottom; target: > div; offset-top: -200;" className="uk-section uk-section-secondary uk-padding-large">
         <div className="uk-container">
 
-            <h1 className="uk-text-center"><strong>FAQ</strong></h1>
+            <h1 className="uk-text-center uk-text-bold" style={{textShadow: "1px 1px 2px #000000", color:"white"}}>FAQ</h1>
             <br />
 
-                <div className="uk-grid-match uk-child-width-1-2@s" uk-scrollspy="cls: uk-animation-fade; target: > div; repeat: true" uk-grid="">
+                <div className="uk-grid-match uk-child-width-1-2@s" uk-grid="">
                     <div className="">
-                        <p>
+                        <p style={{textShadow: "1px 1px 2px #000000", color:"white"}}>
                             <strong>Who can come?</strong>
                             <br /> We are welcoming college students (undergraduate or graduate) who are Engineering or Computer Science majors.</p>
                     </div>
                     <div>
-                        <p>
+                        <p style={{textShadow: "1px 1px 2px #000000", color:"white"}}>
                             <strong>What should I bring?</strong>
                             <br />Nothing is required, but it may be helpful to bring a small notepad and pen.</p>
                     </div>
                     <div>
-                        <p>
+                        <p style={{textShadow: "1px 1px 2px #000000", color:"white"}}>
                             <strong>Does this cost money?</strong>
                             <br />The event is free to attend. We will provide free SWAG, food, and useful workshops.</p>
                     </div>
                     <div>
-                        <p>
+                        <p style={{textShadow: "1px 1px 2px #000000", color:"white"}}>
                             <strong>What is the dress code?</strong>
                             <br /> The dress code is business casual.
                         </p>
                     </div>
                     <div>
-                        <p>
+                        <p style={{textShadow: "1px 1px 2px #000000", color:"white"}}>
                             <strong>Where can I volunteer?</strong>
                             <br /> If you would like to volunteer please follow the link <a href="/getinvolved">here</a>.</p>
                     </div>
                     <div>
-                        <p>
+                        <p style={{textShadow: "1px 1px 2px #000000", color:"white"}}>
                             <strong>Want to find out more?</strong>
                             <br /> If you would like to know more please follow the link <a href="/about">here</a>.</p>
                     </div>
@@ -192,7 +193,7 @@ const Home = () => (
             <h1 className="uk-text-center"><strong>Sponsors</strong></h1>
             <br />
 
-                <div className="uk-text-center uk-flex uk-flex-middle uk-child-width-1-2@s" uk-scrollspy="cls: uk-animation-fade; target: > div; repeat: true" uk-grid="">
+                <div className="uk-text-center uk-flex uk-flex-middle uk-child-width-1-2@s"  uk-grid="">
                     <div>
                         <p><img src={ACMLogo} className="uk-text-middle" alt="sponsor name"/></p>
                     </div>
