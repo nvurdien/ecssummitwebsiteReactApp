@@ -1,10 +1,11 @@
 import chrisvillan from './chrisvillan.jpg';
 import lauren from './laurensu.jpg';
 import steven from './stevenespin.jpg';
-import alvaro from './alvarorivas.jpg';
+import alvaro from './alvarorivas.png';
 import pooja from './poojagajjar.jpg';
 import oscar from './oscar.jpg';
 import navie from './1274.jpeg';
+import saqib from './saqib.jpg';
 
 export const Committee = [
   {
@@ -65,22 +66,15 @@ export const Committee = [
     description:'Something',
     email:'pkgajjar@csu.fullerton.edu'
   },
-// {
-//     id: 8,
-//     image: charles,
-//     name:'Charles Bucher',
-//     // title:'A guy',
-//     description:'Something',
-//     email:'charles.abucher@gmail.com'
-// },
-//      {
-//     id: 9,
-//     image: saqib,
-//     name:'Saqib Shahabuddin',
-//     // title:'A guy',
-//     description:'Something',
-//     email:'sshahabuddin@csu.fullerton.edu'
-//   },
+  {
+  id: 8,
+  image: saqib,
+  name:'Saqib Shahabuddin',
+  // title:'A guy',
+  description:'Something',
+  email:'sshahabuddin@csu.fullerton.edu'
+},
+
 //      {
 //     id: 10,
 //     image: tommy,
