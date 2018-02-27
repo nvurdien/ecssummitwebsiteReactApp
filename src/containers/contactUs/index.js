@@ -3,7 +3,7 @@ import {Title} from "../../components/title";
 import {OffCanvasHeader} from "../../components/offCanvasHeader";
 import {Header} from "../../components/header";
 import {Footer} from "../../components/footer";
-import Form from "../../components/form";
+import ContactForm from "../../components/contactForm";
 
 
 export default () => (
@@ -12,7 +12,7 @@ export default () => (
         <Title title="Contact Us" subtext="We love feedback!"/>
         <Header name="contact"/>
         <div className="uk-section uk-section-default uk-padding-large">
-            <Form/>
+            <ContactForm/>
         </div>
         <Footer/>
     </div>

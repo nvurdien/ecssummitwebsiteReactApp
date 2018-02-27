@@ -2,7 +2,7 @@
 import React from 'react';
 import './style.css';
 
-class Form extends React.Component {
+class ContactForm extends React.Component {
     constructor() {
         super();
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -114,7 +114,7 @@ class Form extends React.Component {
             innertext += ' provided </div>';
             document.getElementById("message_status").innerHTML = innertext;
         }
-        else if( !Form.validEmail(data.email) ) {   // if email is not valid show error
+        else if( !ContactForm.validEmail(data.email) ) {   // if email is not valid show error
             document.getElementById('message_status').innerHTML = '<div id="invalid" class="uk-alert-danger" uk-alert="">Invalid Email</div>';
             document.getElementById("email").classList.add("uk-form-danger");
             return false;
@@ -183,4 +183,4 @@ class Form extends React.Component {
     }
 }
 
-export default Form;
+export default ContactForm;

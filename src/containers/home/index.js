@@ -11,7 +11,7 @@ import {OffCanvasHeader} from "../../components/offCanvasHeader";
 import day1image from './day1image.JPG';
 import day2image from './DSC_0073.JPG';
 import {Footer} from "../../components/footer";
-
+import RegistrationForm from "../../components/registrationForm";
 
 const backgroundStyle = {
     minHeight: '750px',
@@ -45,9 +45,9 @@ const day2Background = {
     backgroundImage: `url(${day2image})`
 };
 
-const disabledCursor = {
-    cursor: 'not-allowed'
-};
+// const disabledCursor = {
+//     cursor: 'not-allowed'
+// };
 
 const Home = () => (
     <div>
@@ -73,7 +73,7 @@ const Home = () => (
     </div>
     <div style={lineHeightChange}>
         <h4 className="uk-article-lead" style={colorToWhite}><span>April 6th - 7th</span></h4>
-        <div className="uk-grid-small uk-flex uk-flex-center uk-child-width-auto" uk-grid uk-countdown="date: 2018-04-06T05:00:00+00:00" style={colorToWhite}>
+        <div className="uk-grid-small uk-flex uk-flex-center uk-child-width-auto" uk-grid uk-countdown="date: 2018-04-06T13:00:00+00:00" style={colorToWhite}>
         <div>
         <div className="uk-countdown-number uk-countdown-days"/>
         <div className="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Days</div>
@@ -94,8 +94,8 @@ const Home = () => (
         <div className="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Seconds</div>
         </div>
     </div>
-    {/*<p> <a href="https://ecssummit.typeform.com/to/CGxyHR" className="btn btn-1 btn-1a" target="_blank" rel="noopener noreferrer" disabled="">Register</a> </p>*/}
-    <p> <a className="btn btn-1 btn-1a" style={disabledCursor} disabled="">Register Soon!</a> </p>
+    {/*<p> <a className="btn btn-1 btn-1a" style={disabledCursor} disabled="">Register Soon!</a> </p>*/}
+    <RegistrationForm/>
     </div>
     </div>
     </div>
@@ -107,13 +107,20 @@ const Home = () => (
     <div className="uk-section uk-section-primary uk-padding-large uk-flex uk-flex-middle uk-margin uk-margin-remove-top uk-margin-remove-bottom">
         <div className="uk-text-center uk-margin-large-left@s uk-margin-large-right@s uk-padding-large@s uk-padding-remove-top uk-padding-remove-bottom" style={colorToWhite}>
             <h2 style={{textShadow: "1px 1px 2px #000000"}}>What is ECS Leadership and Diversity Summit?</h2>
-            <h4 style={{textShadow: "1px 1px 1px #000000", color:"white"}}>It is an event to promote diversity and provide students with professional leadership training. The event will be hosted by a mixture of companies, industry professionals and student clubs. Many of the events will be deliberately interactive, the goal being that the attendees walk away with hands-on experience with specific leadership skills.
+            <h4 style={{textShadow: "1px 1px 1px #000000", color:"white"}}>
+                It is an event to promote diversity and provide students with professional leadership training.
+                The event will be hosted by a mixture of companies, industry professionals and student clubs.
+                Many of the events will be deliberately interactive, the goal being that the attendees walk away with hands-on experience with specific leadership skills.
             </h4>
         </div>
     </div>
 <div className="uk-grid-collapse uk-child-width-1-1@s" uk-grid="">
-        <div uk-scrollspy="cls: uk-animation-slide-left; target: > div; offset-top: -200;" className="uk-card uk-card-secondary uk-grid-collapse uk-child-width-1-2@s uk-margin uk-margin-remove-bottom" uk-grid="">
-            <div title="at team building activity at event" className="uk-card-media-left uk-box-shadow-large uk-background-blend-screen uk-text-center uk-background-primary uk-background-cover uk-background-fixed" style={day1Background} alt="Summit Intro picture">
+        <div uk-scrollspy="cls: uk-animation-slide-left; target: > div; offset-top: -200;"
+             className="uk-card uk-card-secondary uk-grid-collapse uk-child-width-1-2@s uk-margin uk-margin-remove-bottom"
+             uk-grid="">
+            <div title="at team building activity at event"
+                 className="uk-card-media-left uk-box-shadow-large uk-background-blend-screen uk-text-center uk-background-primary uk-background-cover uk-background-fixed"
+                 style={day1Background} alt="Summit Intro picture">
                 <canvas width="400" height="350"/>
             </div>
 
@@ -128,8 +135,12 @@ const Home = () => (
 
         </div>
 
-        <div uk-scrollspy="cls: uk-animation-slide-right; target: > div; offset-top: -200;" className="uk-card uk-card-primary uk-grid-collapse uk-child-width-1-2@s uk-margin uk-margin-remove-top uk-margin-remove-bottom" uk-grid="">
-            <div title="at team building activity at event" className="uk-flex-last@s uk-card-media-right uk-box-shadow-large uk-background-blend-screen uk-text-center uk-background-primary uk-background-cover uk-background-fixed" style={day2Background} alt="Summit Intro picture">
+        <div uk-scrollspy="cls: uk-animation-slide-right; target: > div; offset-top: -200;"
+             className="uk-card uk-card-primary uk-grid-collapse uk-child-width-1-2@s uk-margin uk-margin-remove-top uk-margin-remove-bottom"
+             uk-grid="">
+            <div title="at team building activity at event"
+                 className="uk-flex-last@s uk-card-media-right uk-box-shadow-large uk-background-blend-screen uk-text-center uk-background-primary uk-background-cover uk-background-fixed"
+                 style={day2Background} alt="Summit Intro picture">
                 <canvas width="400" height="350"/>
             </div>
             <div className="uk-flex uk-flex-middle uk-flex-center">

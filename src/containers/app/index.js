@@ -5,6 +5,7 @@ import About from '../about'
 import Committee from '../committee'
 import GetInvolved from '../getinvolved'
 import Contact from "../contactUs";
+// import Register from "../register";
 
 const App = () => (
     <div>
@@ -14,6 +15,7 @@ const App = () => (
             <Route exact path="/contact" component={Contact}/>
             <Route exact path="/getinvolved" component={GetInvolved}/>
             <Route exact path="/committee"  component={Committee}/>
+            {/*<Route exact path="/register" component={Register}/>*/}
         </main>
     </div>
 );
