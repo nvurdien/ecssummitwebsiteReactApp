@@ -154,7 +154,7 @@ const Home = () => (
             </div>
         </div>
 </div>
-    <div  uk-scrollspy="cls: uk-animation-slide-bottom; target: > div; offset-top: -200; repeat:true" className="uk-section uk-section-secondary uk-padding-large">
+    <div  uk-scrollspy="cls: uk-animation-slide-bottom; target: > div; repeat:true" className="uk-section uk-section-secondary uk-padding-large">
         <div className="uk-container">
 
             <h1 className="uk-text-center uk-text-bold" style={{textShadow: "1px 1px 2px #000000", color:"white"}}>FAQ</h1>
