@@ -221,7 +221,7 @@ class RegistrationForm extends React.Component {
 
                     <button className="uk-modal-close-default" type="button" uk-close=""/>
 
-                    <div id="header" className="uk-modal-header">
+                    <div id="header" className="uk-modal-header uk-text-center">
                         <h2 className="uk-modal-title">Registration Form</h2>
                         <div id="message_status">
                         </div>
@@ -299,7 +299,7 @@ class RegistrationForm extends React.Component {
                                 </div>
                             </fieldset>
                             </div>
-                            <div id="footer" className="uk-modal-footer">
+                            <div id="footer" className="uk-modal-footer uk-text-center">
                                 <button type="submit" value="Submit" id="submit" className="uk-button uk-button-default uk-first-column">Submit</button>
 
                             </div>
