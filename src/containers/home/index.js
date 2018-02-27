@@ -12,6 +12,7 @@ import day1image from '../../media/day1image.JPG';
 import day2image from '../../media/DSC_0073.JPG';
 import {Footer} from "../../components/footer";
 import RegistrationForm from "../../components/registrationForm";
+import {Link} from "react-router-dom";
 
 const backgroundStyle = {
     minHeight: '750px',
@@ -185,12 +186,12 @@ const Home = () => (
                     <div>
                         <p style={{textShadow: "1px 1px 2px #000000", color:"white"}}>
                             <strong>Where can I volunteer?</strong>
-                            <br /> If you would like to volunteer please follow the link <a className="uk-text-bold" href="/getinvolved">here</a>.</p>
+                            <br /> If you would like to volunteer please follow the link <Link className="uk-text-bold" to="/getinvolved">here</Link>.</p>
                     </div>
                     <div>
                         <p style={{textShadow: "1px 1px 2px #000000", color:"white"}}>
                             <strong>Want to find out more?</strong>
-                            <br /> If you would like to know more please follow the link <a className="uk-text-bold uk-text-italic" href="/about">here</a>.</p>
+                            <br /> If you would like to know more please follow the link <Link className="uk-text-bold uk-text-italic" to="/about">here</Link>.</p>
                     </div>
                 </div>
 
