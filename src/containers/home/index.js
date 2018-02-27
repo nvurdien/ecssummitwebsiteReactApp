@@ -185,12 +185,12 @@ const Home = () => (
                     <div>
                         <p style={{textShadow: "1px 1px 2px #000000", color:"white"}}>
                             <strong>Where can I volunteer?</strong>
-                            <br /> If you would like to volunteer please follow the link <a href="/getinvolved">here</a>.</p>
+                            <br /> If you would like to volunteer please follow the link <a className="uk-text-bold" href="/getinvolved">here</a>.</p>
                     </div>
                     <div>
                         <p style={{textShadow: "1px 1px 2px #000000", color:"white"}}>
                             <strong>Want to find out more?</strong>
-                            <br /> If you would like to know more please follow the link <a href="/about">here</a>.</p>
+                            <br /> If you would like to know more please follow the link <a className="uk-text-bold uk-text-italic" href="/about">here</a>.</p>
                     </div>
                 </div>
 

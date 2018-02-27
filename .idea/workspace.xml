@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fabb6dd3-90ed-4aaf-8345-99692c497754" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/components/registrationForm/index.js" afterPath="$PROJECT_DIR$/src/components/registrationForm/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/containers/home/index.js" afterPath="$PROJECT_DIR$/src/containers/home/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,8 +24,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/home/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-484">
-              <caret line="95" column="14" lean-forward="false" selection-start-line="95" selection-start-column="14" selection-end-line="95" selection-end-column="14" />
+            <state relative-caret-position="1773">
+              <caret line="187" column="115" lean-forward="false" selection-start-line="187" selection-start-column="115" selection-end-line="187" selection-end-column="115" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -36,8 +36,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/registrationForm/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="223" column="78" lean-forward="false" selection-start-line="223" selection-start-column="78" selection-end-line="223" selection-end-column="78" />
+            <state relative-caret-position="158">
+              <caret line="178" column="37" lean-forward="false" selection-start-line="178" selection-start-column="37" selection-end-line="178" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -140,9 +140,9 @@
         <option value="$PROJECT_DIR$/src/components/header/index.js" />
         <option value="$PROJECT_DIR$/src/components/cardList/index.js" />
         <option value="$PROJECT_DIR$/src/components/cardList/index.js" />
-        <option value="$PROJECT_DIR$/src/containers/home/index.js" />
-        <option value="$PROJECT_DIR$/src/containers/home/index.js" />
         <option value="$PROJECT_DIR$/src/containers/committee/index.js" />
+        <option value="$PROJECT_DIR$/src/containers/home/index.js" />
+        <option value="$PROJECT_DIR$/src/containers/home/index.js" />
         <option value="$PROJECT_DIR$/src/components/registrationForm/index.js" />
       </list>
     </option>
@@ -473,12 +473,12 @@
       <workItem from="1519499875897" duration="40000" />
       <workItem from="1519516916634" duration="691000" />
       <workItem from="1519517650509" duration="498000" />
-      <workItem from="1519560778335" duration="15356000" />
+      <workItem from="1519560778335" duration="15663000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85114000" />
+    <option name="totallyTimeSpent" value="85421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="22" width="1400" height="838" extended-state="0" />
@@ -897,8 +897,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/home/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-484">
-          <caret line="95" column="14" lean-forward="false" selection-start-line="95" selection-start-column="14" selection-end-line="95" selection-end-column="14" />
+        <state relative-caret-position="1773">
+          <caret line="187" column="115" lean-forward="false" selection-start-line="187" selection-start-column="115" selection-end-line="187" selection-end-column="115" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -907,8 +907,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/registrationForm/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="223" column="78" lean-forward="false" selection-start-line="223" selection-start-column="78" selection-end-line="223" selection-end-column="78" />
+        <state relative-caret-position="158">
+          <caret line="178" column="37" lean-forward="false" selection-start-line="178" selection-start-column="37" selection-end-line="178" selection-end-column="37" />
           <folding />
         </state>
       </provider>
