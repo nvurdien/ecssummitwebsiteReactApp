@@ -114,7 +114,8 @@ const Home = () => (
         </div>
     </div>
 <div className="uk-grid-collapse uk-child-width-1-1@s" uk-grid="">
-        <div uk-scrollspy="cls: uk-animation-slide-left; target: > div; offset-top: -200;"
+    {/*uk-scrollspy="cls: uk-animation-slide-left; target: > div; offset-top: -200;"*/}
+        <div
              className="uk-card uk-card-secondary uk-grid-collapse uk-child-width-1-2@s uk-margin uk-margin-remove-bottom"
              uk-grid="">
             <div title="at team building activity at event"
@@ -133,8 +134,8 @@ const Home = () => (
             </div>
 
         </div>
-
-        <div uk-scrollspy="cls: uk-animation-slide-right; target: > div; offset-top: -200;"
+    {/*uk-scrollspy="cls: uk-animation-slide-right; target: > div; offset-top: -200;"*/}
+        <div
              className="uk-card uk-card-primary uk-grid-collapse uk-child-width-1-2@s uk-margin uk-margin-remove-top uk-margin-remove-bottom"
              uk-grid="">
             <div title="at team building activity at event"
@@ -153,7 +154,7 @@ const Home = () => (
             </div>
         </div>
 </div>
-    <div  uk-scrollspy="cls: uk-animation-slide-bottom; target: > div; offset-top: -200;" className="uk-section uk-section-secondary uk-padding-large">
+    <div  uk-scrollspy="cls: uk-animation-slide-bottom; target: > div; offset-top: -200; repeat:true" className="uk-section uk-section-secondary uk-padding-large">
         <div className="uk-container">
 
             <h1 className="uk-text-center uk-text-bold" style={{textShadow: "1px 1px 2px #000000", color:"white"}}>FAQ</h1>
