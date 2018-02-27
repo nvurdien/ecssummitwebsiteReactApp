@@ -14,7 +14,7 @@ export const Header = ({name}) => {
              uk-sticky=" animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 200">
             <nav className="uk-navbar-container uk-navbar-transparent" uk-navbar="">
                 <div className="uk-navbar-left uk-panel uk-margin-left">
-                    <Link className="uk-logo" to="/" onClick={Scroll.animateScroll.scrollToTop()} style={colorToWhite}>ECS Summit</Link>
+                    <a className="uk-logo" href="/" style={colorToWhite}>ECS Summit</a>
                 </div>
                 <div className="uk-navbar-right uk-panel uk-margin-right">
                     <ul className="uk-navbar-nav uk-visible@s">
