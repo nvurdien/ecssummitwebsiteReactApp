@@ -112,6 +112,7 @@ const Home = () => (
                 The event will be hosted by a mixture of companies, industry professionals and student clubs.
                 Many of the events will be deliberately interactive, the goal being that the attendees walk away with hands-on experience with specific leadership skills.
             </h4>
+
         </div>
     </div>
 <div className="uk-grid-collapse uk-child-width-1-1@s" uk-grid="">
