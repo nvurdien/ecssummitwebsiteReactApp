@@ -1,11 +1,11 @@
-import chrisvillan from './chrisvillan.jpg';
-import lauren from './laurensu.jpg';
-import steven from './stevenespin.jpg';
-import alvaro from './alvarorivas.png';
-import pooja from './poojagajjar.jpg';
-import oscar from './oscar.jpg';
-import navie from './1274.jpeg';
-import saqib from './saqib.jpg';
+import chrisvillan from '../../media/chrisvillan.jpg';
+import lauren from '../../media/laurensu.jpg';
+import steven from '../../media/stevenespin.jpg';
+import alvaro from '../../media/alvarorivas.png';
+import pooja from '../../media/poojagajjar.jpg';
+import oscar from '../../media/oscar.jpg';
+import navie from '../../media/1274.jpeg';
+import saqib from '../../media/saqib.jpg';
 
 export const Committee = [
   {

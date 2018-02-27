@@ -6,7 +6,7 @@ import {CardList} from "../../components/cardList";
 import {Committee} from './committee';
 import {AdvisorsList} from './AdvisorsList';
 import {Footer} from "../../components/footer";
-import HeadImage from './contactimage.JPG';
+import HeadImage from '../../media/contactimage.JPG';
 import './imagehover.min.css';
 import './style.css';
 

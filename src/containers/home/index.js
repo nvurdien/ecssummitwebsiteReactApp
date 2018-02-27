@@ -4,12 +4,12 @@ import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import {Header} from "../../components/header";
 import './style.css';
-import introvideo from './Website-Intro-Video-Medium-Quality.mp4';
-import ACMWLogo from './ACMW-Tuffy.png';
-import ACMLogo from './acm-desktopcta.png';
+import introvideo from '../../media/Website-Intro-Video-Medium-Quality.mp4';
+import ACMWLogo from '../../media/ACMW-Tuffy.png';
+import ACMLogo from '../../media/acm-desktopcta.png';
 import {OffCanvasHeader} from "../../components/offCanvasHeader";
-import day1image from './day1image.JPG';
-import day2image from './DSC_0073.JPG';
+import day1image from '../../media/day1image.JPG';
+import day2image from '../../media/DSC_0073.JPG';
 import {Footer} from "../../components/footer";
 import RegistrationForm from "../../components/registrationForm";
 

@@ -1,15 +1,15 @@
 import React from 'react'
 import {Title} from "../../components/title";
-import AboutImage from './about.JPG'
+import AboutImage from '../../media/about.JPG'
 import {OffCanvasHeader} from "../../components/offCanvasHeader";
 import {Header} from "../../components/header";
-import Presidents from './alvaro&sara.JPG';
-import picture1 from './3people.JPG';
-import picture2 from './4people.JPG';
-import picture3 from './Copy of 2017-04-29 11.45.39.jpg';
+import Presidents from '../../media/alvaro&sara.JPG';
+import picture1 from '../../media/3people.JPG';
+import picture2 from '../../media/4people.JPG';
+import picture3 from '../../media/Copy of 2017-04-29 11.45.39.jpg';
 import {Footer} from "../../components/footer";
 
-const About = () => (
+export default () => (
     <div>
         <OffCanvasHeader name="about" />
         <Title title="About Us" image={AboutImage} subtext="What we're about." />
@@ -43,5 +43,3 @@ const About = () => (
         <Footer/>
     </div>
 );
-
-export default About;

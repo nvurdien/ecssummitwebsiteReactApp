@@ -1,6 +1,6 @@
 import React from 'react';
-import Flyer from './volunteer flyer.jpg';
-import HeadImage from './getinvolvedimage.JPG';
+import Flyer from '../../media/volunteer flyer.jpg';
+import HeadImage from '../../media/getinvolvedimage.JPG';
 import {Header} from "../../components/header";
 import {Title} from "../../components/title";
 import {OffCanvasHeader} from "../../components/offCanvasHeader";
