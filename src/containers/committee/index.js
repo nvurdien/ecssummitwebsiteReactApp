@@ -17,7 +17,7 @@ export default () => (
         <Header name="committee"/>
         <div className="uk-section uk-section-default" role="main">
 
-            <h1 className="uk-heading-primary uk-heading-line uk-text-center"><span>Committee</span></h1>
+            <h1 className="uk-heading-primary uk-heading-line uk-text-center"><span>Student Leaders</span></h1>
 
             <div className="uk-margin-small-left uk-margin-small-right">
                 <CardList members={Committee}/>

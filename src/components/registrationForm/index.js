@@ -80,6 +80,8 @@ class RegistrationForm extends React.Component {
         document.getElementById("email").classList.remove("uk-form-danger");
         document.getElementById("firstName").classList.remove("uk-form-danger");
         document.getElementById("lastName").classList.remove("uk-form-danger");
+        document.getElementById("times_friday").classList.remove("uk-form-danger");
+        document.getElementById("times_saturday").classList.remove("uk-form-danger");
         document.getElementById("leadership").classList.remove("uk-form-danger");
         document.getElementById("major").classList.remove("uk-form-danger");
         document.getElementById("allergies").classList.remove("uk-form-danger");
@@ -107,6 +109,8 @@ class RegistrationForm extends React.Component {
             !data.year ||
             !data.leadership ||
             !data.attending ||
+            !data.times_friday ||
+            !data.times_saturday ||
             !data.allergies
         ){
             let prev = false;
@@ -145,6 +149,18 @@ class RegistrationForm extends React.Component {
                 innertext += ' Attending information';
                 prev = true;
             }
+            if(!data.times_friday){
+                if(prev) innertext += ',';
+                document.getElementById("times_friday").classList.add("uk-form-danger");
+                innertext += ' Friday Times';
+                prev = true;
+            }
+            if(!data.times_saturday){
+                if(prev) innertext += ',';
+                document.getElementById("times_saturday").classList.add("uk-form-danger");
+                innertext += ' Saturday Times';
+                prev = true;
+            }
             if(!data.leadership){
                 if(prev) innertext += ',';
                 document.getElementById("leadership").classList.add("uk-form-danger");
@@ -174,14 +190,16 @@ class RegistrationForm extends React.Component {
             return false;
         }
          else {
-            // let url = "https://script.google.com/macros/s/AKfycbxyeCTpkwJMAEZh8uEfV9gHqFtYFcrOsHoA4TTQDNCQfLWK8W4/exec";
-            let url = ""; // for testing
+            let url = "https://script.google.com/macros/s/AKfycbxyeCTpkwJMAEZh8uEfV9gHqFtYFcrOsHoA4TTQDNCQfLWK8W4/exec";
+            // let url = ""; // for testing
             document.getElementById("email").classList.add("uk-form-success");
             document.getElementById("firstName").classList.add("uk-form-success");
             document.getElementById("lastName").classList.add("uk-form-success");
             document.getElementById("phone").classList.add("uk-form-success");
             document.getElementById("allergies").classList.add("uk-form-success");
             document.getElementById("leadership").classList.add("uk-form-success");
+            document.getElementById("times_friday").classList.add("uk-form-success");
+            document.getElementById("times_saturday").classList.add("uk-form-success");
             document.getElementById("comments").classList.add("uk-form-success");
             document.getElementById("submit").innerText = "Sending";
             document.getElementById("submit").setAttribute("disabled", "");
@@ -250,9 +268,10 @@ class RegistrationForm extends React.Component {
                                     <label htmlFor="major">Major<span className="required">*</span></label>
                                     <input alt="major" className="uk-input" id="major" label="" required="" name="major" title="major"/>
                                 </div>
-                                <label htmlFor="year">Year<span className="required">*</span></label>
+
                                 <div className="uk-margin">
-                                    <div className="uk-margin uk-grid-small uk-child-width-1-2@s uk-grid">
+                                    <label htmlFor="year">Year<span className="required">*</span></label>
+                                    <div className="uk-grid-small uk-child-width-1-2@s uk-grid">
                                         <label><input className="uk-radio" type="radio" name="year" value="Freshman"/> Freshman</label>
                                         <label><input className="uk-radio" type="radio" name="year" value="Sophomore"/> Sophomore</label>
                                         <label><input className="uk-radio" type="radio" name="year" value="Junior"/> Junior</label>
@@ -261,10 +280,21 @@ class RegistrationForm extends React.Component {
                                     </div>
                                 </div>
                                 <label htmlFor="attending">Which days can you attend fully?<span className="required">*</span></label>
-                                <div className="uk-margin uk-grid-small uk-child-width-auto uk-grid">
-                                    <label><input className="uk-checkbox" name="attending" value="Friday" type="checkbox"/> Friday</label>
-                                    <label><input className="uk-checkbox" name="attending" value="Saturday" type="checkbox"/> Saturday</label>
+                                <div className="uk-grid-small uk-child-width-1-1\@s uk-grid">
+                                    <label><input className="uk-checkbox" name="attending" value="Friday" type="checkbox"/> Friday 1:00pm - 8:00pm</label>
+                                    <label><input className="uk-checkbox" name="attending" value="Saturday" type="checkbox"/> Saturday 9:30am - 6:00pm</label>
                                 </div>
+
+                                <div className="uk-margin">
+                                    <label htmlFor="times_friday">What times on Friday 1:00pm - 8:00pm?<span className="required">*</span></label>
+                                    <input alt="times_friday" className="uk-input" id="times_friday" label="" required="" name="times_friday" title="times_friday"/>
+                                </div>
+
+                                <div className="uk-margin">
+                                    <label htmlFor="times_saturday">What times on Saturday 9:30am - 6:00pm?<span className="required">*</span></label>
+                                    <input alt="times_saturday" className="uk-input" id="times_saturday" label="" required="" name="times_saturday" title="times_saturday"/>
+                                </div>
+
                                 <div className="uk-margin">
                                     <label htmlFor="leadership">What does leadership mean to you?<span className="required">*</span></label>
                                     <textarea alt="leadership"
@@ -278,9 +308,12 @@ class RegistrationForm extends React.Component {
                                     <label htmlFor="allergies">Dietary Restriction or Allergies? [Please list or type N/A]<span className="required">*</span></label>
                                     <input alt="allergies" className="uk-input" id="allergies" label="" required="" name="allergies" title="allergies" type="text"/>
                                 </div>
-                                {/*<label htmlFor="terms"></label>*/}
+                                <label htmlFor="terms">I acknowledge the following:<br/>
+
+                                    The information I provided above is accurate. By registering, I commit to attending the Summit. As such, the Departments of Engineering and Computer Science are reserving my seat and are funding my participation.I will immediately communicate any changes to the information provided to the event coordinators at <a href="mailto:ecs.summit@gmail.com">ecs.summit@gmail.com</a>.<span className="required">*</span>
+                                </label>
                                 <div className="uk-margin">
-                                    <label ><input className="uk-checkbox" name="terms" value="Approved" type="checkbox"/> <span className="required">*</span>I acknowledge that the information I provided above is accurate. By registering, I agree to attend, and I acknowledge that the ECS Departments will be paying for me so that I can attend the event for free. Any changes to the information provided must be communicated or emailed to the event coordinators immediately.</label>
+                                    <label><input className="uk-checkbox" name="terms" value="Approved" type="checkbox"/> Approve</label>
                                 </div>
                                 <div className="uk-margin">
                                     <label htmlFor="comments">Comments?</label>
