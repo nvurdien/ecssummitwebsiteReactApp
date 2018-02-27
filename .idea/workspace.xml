@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fabb6dd3-90ed-4aaf-8345-99692c497754" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/navievurdien.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/navievurdien.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/components/registrationForm/index.js" afterPath="$PROJECT_DIR$/src/components/registrationForm/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/containers/committee/index.js" afterPath="$PROJECT_DIR$/src/containers/committee/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,8 +37,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/registrationForm/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1733">
-              <caret line="194" column="43" lean-forward="true" selection-start-line="194" selection-start-column="43" selection-end-line="194" selection-end-column="43" />
+            <state relative-caret-position="287">
+              <caret line="264" column="84" lean-forward="false" selection-start-line="264" selection-start-column="84" selection-end-line="264" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -474,12 +474,12 @@
       <workItem from="1519499875897" duration="40000" />
       <workItem from="1519516916634" duration="691000" />
       <workItem from="1519517650509" duration="498000" />
-      <workItem from="1519560778335" duration="13955000" />
+      <workItem from="1519560778335" duration="14993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83713000" />
+    <option name="totallyTimeSpent" value="84751000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="22" width="1400" height="838" extended-state="0" />
@@ -908,8 +908,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/registrationForm/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1733">
-          <caret line="194" column="43" lean-forward="true" selection-start-line="194" selection-start-column="43" selection-end-line="194" selection-end-column="43" />
+        <state relative-caret-position="287">
+          <caret line="264" column="84" lean-forward="false" selection-start-line="264" selection-start-column="84" selection-end-line="264" selection-end-column="84" />
           <folding />
         </state>
       </provider>
