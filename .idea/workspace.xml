@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fabb6dd3-90ed-4aaf-8345-99692c497754" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/containers/committee/alvarorivas.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/containers/committee/saqib.jpg" />
-      <change beforePath="$PROJECT_DIR$/src/containers/committee/alvarorivas.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/containers/committee/chrisvillan.jpg" afterPath="$PROJECT_DIR$/src/containers/committee/chrisvillan.jpg" />
-      <change beforePath="$PROJECT_DIR$/src/containers/committee/committee.js" afterPath="$PROJECT_DIR$/src/containers/committee/committee.js" />
-      <change beforePath="$PROJECT_DIR$/src/containers/committee/laurensu.jpg" afterPath="$PROJECT_DIR$/src/containers/committee/laurensu.jpg" />
-      <change beforePath="$PROJECT_DIR$/src/containers/committee/oscar.jpg" afterPath="$PROJECT_DIR$/src/containers/committee/oscar.jpg" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/components/card/index.js" afterPath="$PROJECT_DIR$/src/components/card/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/registrationForm/index.js" afterPath="$PROJECT_DIR$/src/components/registrationForm/index.js" />
       <change beforePath="$PROJECT_DIR$/src/containers/home/index.js" afterPath="$PROJECT_DIR$/src/containers/home/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,7 +26,7 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
+            <state relative-caret-position="120">
               <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
@@ -39,11 +35,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/home/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="113" column="17" lean-forward="false" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="17" />
+            <state relative-caret-position="97">
+              <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/committee/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/cardList/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/card/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -52,8 +80,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/registrationForm/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="191" column="34" lean-forward="false" selection-start-line="191" selection-start-column="34" selection-end-line="191" selection-end-column="34" />
+            <state relative-caret-position="132">
+              <caret line="285" column="51" lean-forward="false" selection-start-line="285" selection-start-column="51" selection-end-line="285" selection-end-column="51" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -128,11 +156,16 @@
       <find>cument\.getElementById\(\&quot;email\&quot;\)\.classList\.remove\(\&quot;uk\-form\-success\&quot;\)\;\n            document\.getElementById\(\&quot;firstName\&quot;\)\.classList\.remove\(\&quot;uk\-form\-success\&quot;\)\;\n            document\.getElementById\(\&quot;lastName\&quot;\)\.classList\.remove\(\&quot;uk\-form\-success\&quot;\)\;\n            document\.getElementById\(\&quot;phone\&quot;\)\.classList\.remove\(\&quot;uk\-form\-success\&quot;\)\;\n            document\.getElementById\(\&quot;major\&quot;\)\.classList\.remove\(\&quot;uk\-form\-success\&quot;\)\;\n            document\.getElementById\(\&quot;year\&quot;\)\.classList\.remove\(\&quot;uk\-form\-success\&quot;\)\;\n            document\.getElementById\(\&quot;attending\&quot;\)\.classList\.remove\(\&quot;uk\-form\-success\&quot;\)\;\n            document\.getElementById\(\&quot;allergies\&quot;\)\.classList\.remove\(\&quot;uk\-form\-success\&quot;\)\;\n</find>
       <find>remove</find>
       <find>redux</find>
+      <find>for</find>
+      <find>htmlfor=</find>
+      <find>webkit</find>
     </findStrings>
     <replaceStrings>
       <replace>className</replace>
       <replace>&lt;/strong&gt;</replace>
       <replace>add</replace>
+      <replace>htmlfor=</replace>
+      <replace>htmlFor=</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -146,7 +179,6 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/footer/index.js" />
         <option value="$PROJECT_DIR$/src/components/cardList/index.js" />
-        <option value="$PROJECT_DIR$/src/components/card/index.js" />
         <option value="$PROJECT_DIR$/src/containers/contact/AdvisorsList.js" />
         <option value="$PROJECT_DIR$/src/containers/contact/committee.js" />
         <option value="$PROJECT_DIR$/src/containers/contact/index.js" />
@@ -155,7 +187,6 @@
         <option value="$PROJECT_DIR$/src/components/footer/index.js" />
         <option value="$PROJECT_DIR$/src/store.js" />
         <option value="$PROJECT_DIR$/src/containers/contact/index.js" />
-        <option value="$PROJECT_DIR$/src/components/card/index.js" />
         <option value="$PROJECT_DIR$/src/containers/contact/committee.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/scripts/webpack.js" />
@@ -187,6 +218,8 @@
         <option value="$PROJECT_DIR$/src/components/registrationForm/index.js" />
         <option value="$PROJECT_DIR$/src/containers/home/index.js" />
         <option value="$PROJECT_DIR$/src/containers/home/index.js" />
+        <option value="$PROJECT_DIR$/src/components/card/index.js" />
+        <option value="$PROJECT_DIR$/src/components/card/index.js" />
       </list>
     </option>
   </component>
@@ -301,7 +334,7 @@
               <item name="summitwebsite" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="committee" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -450,12 +483,12 @@
       <workItem from="1519499875897" duration="40000" />
       <workItem from="1519516916634" duration="691000" />
       <workItem from="1519517650509" duration="498000" />
-      <workItem from="1519560778335" duration="7888000" />
+      <workItem from="1519560778335" duration="8866000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77646000" />
+    <option name="totallyTimeSpent" value="78624000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="22" width="1400" height="838" extended-state="0" />
@@ -494,14 +527,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/registerServiceWorker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1394">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/webpack.js" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -588,13 +613,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js" />
-    <entry file="file://$PROJECT_DIR$/src/containers/committee/committee.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.webworker.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-31">
@@ -627,13 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="25" lean-forward="true" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/committee/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -765,16 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yarn.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -849,20 +850,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/registrationForm/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="191" column="34" lean-forward="false" selection-start-line="191" selection-start-column="34" selection-end-line="191" selection-end-column="34" />
+        <state relative-caret-position="132">
+          <caret line="285" column="51" lean-forward="false" selection-start-line="285" selection-start-column="51" selection-end-line="285" selection-end-column="51" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/committee/committee.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-810">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/home/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="113" column="17" lean-forward="false" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="17" />
+        <state relative-caret-position="97">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/committee/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/cardList/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/card/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
           <folding />
         </state>
       </provider>

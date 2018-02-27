@@ -170,7 +170,7 @@ class RegistrationForm extends React.Component {
             document.getElementById("phone").classList.add("uk-form-danger");
             return false;
         }else if( data.terms === "false"){
-            document.getElementById('message_status').innerHTML = '<div id="invalid" class="uk-alert-danger" uk-alert="">You must approve the terms</div>';
+            document.getElementById('message_status').innerHTML = '<div id="invalid" class="uk-alert-danger" uk-alert="">You must acknowledge</div>';
             return false;
         }
          else {
@@ -230,27 +230,27 @@ class RegistrationForm extends React.Component {
 
                             <fieldset className="uk-fieldset">
                                 <div className="uk-margin">
-                                    <label for="firstName">First Name<span className="required">*</span></label>
+                                    <label htmlFor="firstName">First Name<span className="required">*</span></label>
                                     <input alt="firstName" className="uk-input" id="firstName" label="" required="" name="firstName" title="firstName"/>
                                 </div>
                                 <div className="uk-margin">
-                                    <label for="lastName">Last Name<span className="required">*</span></label>
+                                    <label htmlFor="lastName">Last Name<span className="required">*</span></label>
                                     <input alt="lastName" className="uk-input" id="lastName" label="" required="" name="lastName" title="lastName"/>
                                 </div>
                                 <div className="uk-margin">
-                                    <label for="email">Email<span className="required">*</span></label>
+                                    <label htmlFor="email">Email<span className="required">*</span></label>
                                     <input alt="email" className="uk-input" id="email" label="" required="" name="email" title="email" type="email"/>
                                 </div>
                                 <div className="uk-margin">
-                                    <label for="phone">Phone Number</label>
+                                    <label htmlFor="phone">Phone Number</label>
                                     <input alt="phone" className="uk-input" id="phone" label="" name="phone" title="phone" type="tel"/>
                                 </div>
 
                                 <div className="uk-margin">
-                                    <label for="major">Major<span className="required">*</span></label>
+                                    <label htmlFor="major">Major<span className="required">*</span></label>
                                     <input alt="major" className="uk-input" id="major" label="" required="" name="major" title="major"/>
                                 </div>
-                                <label for="year">Year<span className="required">*</span></label>
+                                <label htmlFor="year">Year<span className="required">*</span></label>
                                 <div className="uk-margin">
                                     <div className="uk-margin uk-grid-small uk-child-width-1-2@s uk-grid">
                                         <label><input className="uk-radio" type="radio" name="year" value="Freshman"/> Freshman</label>
@@ -260,13 +260,13 @@ class RegistrationForm extends React.Component {
                                         <label><input className="uk-radio" type="radio" name="year" value="Graduate"/> Graduate</label>
                                     </div>
                                 </div>
-                                <label for="attending">Which days can you attend fully?<span className="required">*</span></label>
+                                <label htmlFor="attending">Which days can you attend fully?<span className="required">*</span></label>
                                 <div className="uk-margin uk-grid-small uk-child-width-auto uk-grid">
                                     <label><input className="uk-checkbox" name="attending" value="Friday" type="checkbox"/> Friday</label>
                                     <label><input className="uk-checkbox" name="attending" value="Saturday" type="checkbox"/> Saturday</label>
                                 </div>
                                 <div className="uk-margin">
-                                    <label for="leadership">What does leadership mean to you?<span className="required">*</span></label>
+                                    <label htmlFor="leadership">What does leadership mean to you?<span className="required">*</span></label>
                                     <textarea alt="leadership"
                                               placeholder="Ex: Leadership is the ability to inspire your teammates to work and succeed together. It’s not about controlling them, but working with them. The leader creates the foundation that the team can build upon."
                                               className="uk-textarea"
@@ -275,15 +275,15 @@ class RegistrationForm extends React.Component {
                                 </div>
 
                                 <div className="uk-margin">
-                                    <label for="allergies">Dietary Restriction or Allergies? [Please list or type N/A]<span className="required">*</span></label>
+                                    <label htmlFor="allergies">Dietary Restriction or Allergies? [Please list or type N/A]<span className="required">*</span></label>
                                     <input alt="allergies" className="uk-input" id="allergies" label="" required="" name="allergies" title="allergies" type="text"/>
                                 </div>
-                                {/*<label for="terms"></label>*/}
+                                {/*<label htmlFor="terms"></label>*/}
                                 <div className="uk-margin">
                                     <label ><input className="uk-checkbox" name="terms" value="Approved" type="checkbox"/> <span className="required">*</span>I acknowledge that the information I provided above is accurate. By registering, I agree to attend, and I acknowledge that the ECS Departments will be paying for me so that I can attend the event for free. Any changes to the information provided must be communicated or emailed to the event coordinators immediately.</label>
                                 </div>
                                 <div className="uk-margin">
-                                    <label for="comments">Comments?</label>
+                                    <label htmlFor="comments">Comments?</label>
                                     <textarea alt="comments" className="uk-textarea" id="comments" label="" required="" name="comments" title="comments"/>
                                 </div>
                             </fieldset>

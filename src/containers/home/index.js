@@ -16,8 +16,8 @@ import RegistrationForm from "../../components/registrationForm";
 const backgroundStyle = {
     minHeight: '750px',
     boxShadow: '-8px 21px 35px 0px rgba(0,0,0,0.38)',
-    webkitBoxShadow: '-8px 21px 35px 0px rgba(0,0,0,0.38)',
-    mozBoxShadow: '-8px 21px 35px 0px rgba(0,0,0,0.38)'
+    WebkitBoxShadow: '-8px 21px 35px 0px rgba(0,0,0,0.38)',
+    MozBoxShadow: '-8px 21px 35px 0px rgba(0,0,0,0.38)'
 };
 
 const backgroundOverlayStyle = {
@@ -56,7 +56,7 @@ const Home = () => (
     <div id="mainpage" className="uk-background-muted">
 
         <div className="uk-cover-container uk-background-cover uk-background-default" style={backgroundStyle}>
-        <video id="home_video_element" autoPlay="" loop alt="summit preview" muted="" playsinline="" uk-cover="">
+        <video id="home_video_element" autoPlay="" loop alt="summit preview" muted="" playsInline="" uk-cover="">
     <source id="mp4Source" type="video/mp4" src={introvideo} alt="summit preview" />
         </video>
 
@@ -67,13 +67,11 @@ const Home = () => (
 
         <div className="uk-child-width-1-1@s uk-text-center uk-grid-collapse uk-article" uk-grid="">
     <div>
-    <p>
-    <h1 className="uk-article-title uk-light" style={{textShadow: "4px 2px 4px #000000"}}>ECS Diversity and Leadership Summit</h1>
-    </p>
+    <h1 className="uk-article-title uk-light" style={{textShadow: "4px 2px 4px #000000", marginBottom:'15px'}}>ECS Diversity and Leadership Summit</h1>
     </div>
     <div style={lineHeightChange}>
         <h4 className="uk-article-lead" style={colorToWhite}><span>April 6th - 7th</span></h4>
-        <div className="uk-grid-small uk-flex uk-flex-center uk-child-width-auto" uk-grid uk-countdown="date: 2018-04-06T13:00:00+00:00" style={colorToWhite}>
+        <div className="uk-grid-small uk-flex uk-flex-center uk-child-width-auto" uk-grid="" uk-countdown="date: 2018-04-06T13:00:00+00:00" style={colorToWhite}>
         <div>
         <div className="uk-countdown-number uk-countdown-days"/>
         <div className="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Days</div>
