@@ -105,7 +105,7 @@ const Home = () => (
 
     <div className="uk-section uk-section-primary uk-padding-large uk-flex uk-flex-middle uk-margin uk-margin-remove-top uk-margin-remove-bottom">
         <div className="uk-text-center uk-margin-large-left@s uk-margin-large-right@s uk-padding-large@s uk-padding-remove-top uk-padding-remove-bottom" style={colorToWhite}>
-            <h2 style={{textShadow: "1px 1px 2px #000000"}}>What is ECS Leadership and Diversity Summit?</h2>
+            <h2 style={{textShadow: "1px 1px 2px #000000"}}>What is ECS Diversity and Leadership Summit?</h2>
             <h4 style={{textShadow: "1px 1px 1px #000000", color:"white"}}>
                 It is an event to promote diversity and provide students with professional leadership training.
                 The event will be hosted by a mixture of companies, industry professionals and student clubs.
