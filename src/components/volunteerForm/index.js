@@ -196,23 +196,7 @@ class VolunteerForm extends React.Component {
                 return encodeURIComponent(k) + '=' + encodeURIComponent(data[k])
             }).join('&');
             xhr.send(encoded);
-            //
-            // let authenticationString = btoa('f69b963e174e7123903580075b01e2f8-us17');
-            // authenticationString = "Basic " + authenticationString;
-            //
-            // fetch('https://usX.api.mailchimp.com/3.0/lists/120365/members', {
-            //     mode: 'no-cors',
-            //     method: 'POST',
-            //     headers: new Headers({
-            //         'Authorization': authenticationString,
-            //         'Accept': 'application/json',
-            //         'Content-Type': 'application/json'
-            //     })
-            // }).then(function (e) {
-            //     console.log("fetch finished")
-            // }).catch(function (e) {
-            //     console.log("fetch error");
-            // });
+            
 
             document.getElementById("footer").remove();
         }
