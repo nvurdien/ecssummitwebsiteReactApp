@@ -5,6 +5,7 @@ import {Header} from "../../components/header";
 import {Title} from "../../components/title";
 import {OffCanvasHeader} from "../../components/offCanvasHeader";
 import {Footer} from "../../components/footer";
+import VolunteerForm from "../../components/volunteerForm";
 
 export default () => (
     <div>
@@ -13,6 +14,7 @@ export default () => (
         <Header name="getinvolved" />
         <div className="uk-section uk-section-muted uk-padding-large">
             <div className="uk-container">
+                <VolunteerForm/>
                 <img src={Flyer} title="volunteer flyer" alt="volunteer flyer" />
             </div>
         </div>

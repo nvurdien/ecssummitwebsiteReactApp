@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fabb6dd3-90ed-4aaf-8345-99692c497754" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/volunteerForm/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/volunteerForm/style.css" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/components/header/index.js" afterPath="$PROJECT_DIR$/src/components/header/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/containers/getinvolved/index.js" afterPath="$PROJECT_DIR$/src/containers/getinvolved/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,21 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/home/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2610">
-              <caret line="188" column="94" lean-forward="false" selection-start-line="188" selection-start-column="94" selection-end-line="188" selection-end-column="94" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/header/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+            <state relative-caret-position="239">
+              <caret line="21" column="123" lean-forward="false" selection-start-line="21" selection-start-column="123" selection-end-line="21" selection-end-column="123" />
               <folding />
             </state>
           </provider>
@@ -116,8 +109,6 @@
         <option value="$PROJECT_DIR$/src/components/card/index.js" />
         <option value="$PROJECT_DIR$/src/containers/committee/committee.js" />
         <option value="$PROJECT_DIR$/src/containers/committee/AdvisorsList.js" />
-        <option value="$PROJECT_DIR$/src/containers/getinvolved/index.js" />
-        <option value="$PROJECT_DIR$/src/containers/getinvolved/index.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/containers/app/index.js" />
@@ -130,6 +121,9 @@
         <option value="$PROJECT_DIR$/src/components/registrationForm/index.js" />
         <option value="$PROJECT_DIR$/src/containers/home/index.js" />
         <option value="$PROJECT_DIR$/src/containers/home/index.js" />
+        <option value="$PROJECT_DIR$/src/containers/getinvolved/index.js" />
+        <option value="$PROJECT_DIR$/src/containers/getinvolved/index.js" />
+        <option value="$PROJECT_DIR$/src/components/volunteerForm/index.js" />
         <option value="$PROJECT_DIR$/src/components/header/index.js" />
         <option value="$PROJECT_DIR$/src/components/header/index.js" />
       </list>
@@ -205,6 +199,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,11 +210,6 @@
             <path>
               <item name="summitwebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="summitwebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="summitwebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="summitwebsite" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -227,20 +217,6 @@
               <item name="summitwebsite" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="summitwebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="summitwebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="card" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="summitwebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="summitwebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="cardList" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="summitwebsite" type="b2602c69:ProjectViewProjectNode" />
@@ -260,35 +236,14 @@
               <item name="summitwebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="summitwebsite" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="volunteerForm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="summitwebsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="summitwebsite" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="about" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="summitwebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="summitwebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="summitwebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="summitwebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="committee" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="summitwebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="summitwebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="contactUs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="summitwebsite" type="b2602c69:ProjectViewProjectNode" />
@@ -297,26 +252,11 @@
               <item name="containers" type="462c0819:PsiDirectoryNode" />
               <item name="getinvolved" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="summitwebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="summitwebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="summitwebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="summitwebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="register" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,12 +269,13 @@
     <property name="last.edited.regexp" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/media" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/volunteerForm" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/containers/app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/media" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -462,12 +403,15 @@
       <workItem from="1519516916634" duration="691000" />
       <workItem from="1519517650509" duration="498000" />
       <workItem from="1519560778335" duration="16144000" />
-      <workItem from="1519763711625" duration="24000" />
+      <workItem from="1519763711625" duration="165000" />
+      <workItem from="1519853937602" duration="16000" />
+      <workItem from="1520369123184" duration="96000" />
+      <workItem from="1520577042239" duration="6711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85926000" />
+    <option name="totallyTimeSpent" value="92890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="22" width="1400" height="838" extended-state="0" />
@@ -478,8 +422,8 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24945612" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33109018" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35097897" sideWeight="0.509901" order="1" side_tool="true" content_ui="tabs" />
@@ -508,20 +452,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/asset-manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/favicon.ico">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -701,13 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="3633" column="8" lean-forward="false" selection-start-line="3633" selection-start-column="8" selection-end-line="3633" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/static/js/main.3ac637a8.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -730,13 +653,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/committee/1274.jpeg" />
-    <entry file="file://$PROJECT_DIR$/src/containers/getinvolved/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/committee/committee.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -755,7 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="266" lean-forward="false" selection-start-line="3" selection-start-column="266" selection-end-line="3" selection-end-column="266" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -812,7 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,22 +734,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="178" column="37" lean-forward="false" selection-start-line="178" selection-start-column="37" selection-end-line="178" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="15108" column="17" lean-forward="false" selection-start-line="15108" selection-start-column="17" selection-end-line="15108" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/volunteerForm/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="165" column="118" lean-forward="false" selection-start-line="165" selection-start-column="118" selection-end-line="165" selection-end-column="118" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/home/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2610">
+        <state relative-caret-position="15">
           <caret line="188" column="94" lean-forward="false" selection-start-line="188" selection-start-column="94" selection-end-line="188" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/getinvolved/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/volunteerForm/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/header/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+        <state relative-caret-position="239">
+          <caret line="21" column="123" lean-forward="false" selection-start-line="21" selection-start-column="123" selection-end-line="21" selection-end-column="123" />
           <folding />
         </state>
       </provider>
