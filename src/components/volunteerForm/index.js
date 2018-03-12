@@ -196,7 +196,7 @@ class VolunteerForm extends React.Component {
                 return encodeURIComponent(k) + '=' + encodeURIComponent(data[k])
             }).join('&');
             xhr.send(encoded);
-            
+
 
             document.getElementById("footer").remove();
         }
@@ -270,7 +270,7 @@ class VolunteerForm extends React.Component {
                                 </div>
                                 <div className="uk-margin">
                                     <label htmlFor="comments">Comments?</label>
-                                    <textarea alt="comments" className="uk-textarea" id="comments" label="" required="" name="comments" title="comments"/>
+                                    <textarea alt="comments" className="uk-textarea" id="comments" label="" name="comments" title="comments"/>
                                 </div>
                             </fieldset>
                             </div>
