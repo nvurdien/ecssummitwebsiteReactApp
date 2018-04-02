@@ -13,6 +13,7 @@ import day2image from '../../media/DSC_0073.JPG';
 import {Footer} from "../../components/footer";
 import RegistrationForm from "../../components/registrationForm";
 import {Link} from "react-router-dom";
+import summitLogo from '../../media/summitLogo.png';
 
 const backgroundStyle = {
     minHeight: '750px',
@@ -27,7 +28,11 @@ const backgroundOverlayStyle = {
 
 const backgroundTextStyle = {
     minHeight: '750px',
-    background: 'rgba(34,34,34,0.3)'
+    background: 'rgba(34,34,34,0.3)',
+    backgroundImage: `url(${summitLogo})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center 40px'
+    // backgroundPosition: 'center'
 };
 
 const lineHeightChange = {
