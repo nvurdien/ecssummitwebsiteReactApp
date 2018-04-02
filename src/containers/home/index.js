@@ -31,7 +31,7 @@ const backgroundTextStyle = {
     background: 'rgba(34,34,34,0.3)',
     backgroundImage: `url(${summitLogo})`,
     backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'center 40px'
+    backgroundPosition: 'center 115px'
     // backgroundPosition: 'center'
 };
 
