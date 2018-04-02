@@ -19,7 +19,7 @@ export const Header = ({name}) => {
                         <li className={name === "about" ? "uk-active" : ""}><Link to="/about" onClick={Scroll.animateScroll.scrollToTop()}>About Us</Link></li>
                         <li className={name === "committee" ? "uk-active" : ""}><Link onClick={Scroll.animateScroll.scrollToTop()} to="/committee">Committee</Link></li>
                         <li className={name === "contact" ? "uk-active" : ""}><Link onClick={Scroll.animateScroll.scrollToTop()} to="/contact">Contact Us</Link></li>
-                        {/*<li className={name === "schedule" ? "uk-active" : ""}><Link onClick={Scroll.animateScroll.scrollToTop()} to="/schedule">Schedule</Link></li>*/}
+                        <li className={name === "schedule" ? "uk-active" : ""}><Link onClick={Scroll.animateScroll.scrollToTop()} to="/schedule">Schedule</Link></li>
                         <li className={name === "getinvolved" ? "uk-active" : ""}><a href="/getinvolved">Get Involved</a></li>
                     </ul>
                     <div className="uk-navbar-right uk-hidden@s">

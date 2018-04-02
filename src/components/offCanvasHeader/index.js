@@ -12,7 +12,7 @@ export const OffCanvasHeader = ({name}) => {
                 <li className={name === "about" ? "uk-active" : ""}><a style={colorToWhite} href="/about">About Us</a></li>
                 <li className={name === "committee" ? "uk-active" : ""}><a style={colorToWhite} href="/committee">Committee</a></li>
                 <li className={name === "contact" ? "uk-active" : ""}><a style={colorToWhite} href="/contact">Contact Us</a></li>
-                {/*<li className={name === "schedule" ? "uk-active" : ""}><a style={colorToWhite} href="/schedule">Schedule</a></li>*/}
+                <li className={name === "schedule" ? "uk-active" : ""}><a style={colorToWhite} href="/schedule">Schedule</a></li>
                 <li className={name === "getinvolved" ? "uk-active" : ""}><a style={colorToWhite} href="getinvolved">Get Involved</a></li>
             </ul>
         </div>

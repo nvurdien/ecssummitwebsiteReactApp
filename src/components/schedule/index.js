@@ -1,12 +1,13 @@
 import React from 'react';
 import FullCalendar from 'fullcalendar-reactwrapper';
 import 'fullcalendar-reactwrapper/dist/css/fullcalendar.min.css';
+import events from './events.js'
 
 class Schedule extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            defaultView: 'timeline2Day',
+            defaultView: 'list2Day',
             views: {
                 timeline2Day: {
                     type: 'agenda',
@@ -24,7 +25,7 @@ class Schedule extends React.Component {
                 { id: 'a', title: 'Room A' },
                 { id: 'b', title: 'Room B' }
             ],
-            events:'https://fullcalendar.io/demo-events.json?with-resources=2',
+            events: events,
         }
     }
 
@@ -35,16 +36,19 @@ class Schedule extends React.Component {
                     header= {{
                         left: '',
                         center: 'title',
-                        right: 'timeline2Day,list2Day'
+                        right: 'list2Day,timeline2Day'
                     }}
                     id = "your-custom-ID"
-                    defaultDate={new Date()}
+                    defaultDate={new Date('April 6, 2018')}
                     nowIndicator={true}
                     defaultView={this.state.defaultView}
                     views={this.state.views}
                     groupByResource={true}
                     resources={this.state.resources}
                     events = {this.state.events}
+                    slotDuration= {'00:10:00'}
+                    minTime={'09:00:00'}
+                    maxTime={'19:00:00'}
                 />
             </div>
         );

@@ -44,7 +44,7 @@ class RegistrationForm extends React.Component {
                 }
             }
         });
-
+        
         // add form-specific values into the data
         data.formDataNameOrder = JSON.stringify(fields);
         console.log(data.formDataNameOrder);
