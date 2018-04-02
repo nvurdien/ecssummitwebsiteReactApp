@@ -2,6 +2,7 @@ import React from 'react';
 import FullCalendar from 'fullcalendar-reactwrapper';
 import 'fullcalendar-reactwrapper/dist/css/fullcalendar.min.css';
 import events from './events.js'
+import './style.css'
 
 class Schedule extends React.Component {
     constructor(props) {
@@ -20,11 +21,6 @@ class Schedule extends React.Component {
                     buttonText: "List View"
                 }
             },
-            groupByResource: true,
-            resources: [
-                { id: 'a', title: 'Room A' },
-                { id: 'b', title: 'Room B' }
-            ],
             events: events,
         }
     }
@@ -49,6 +45,9 @@ class Schedule extends React.Component {
                     slotDuration= {'00:10:00'}
                     minTime={'08:00:00'}
                     maxTime={'19:00:00'}
+                    contentHeight={"auto"}
+                    height={"auto"}
+                    eventRender={function (event, element){}}
                 />
             </div>
         );

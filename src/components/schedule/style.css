@@ -1,0 +1,13 @@
+.fc-scroller{
+    height: auto !important;
+}
+
+.fc-list-item-title a:hover{
+    text-decoration: none;
+    color: #666;
+    cursor: default;
+}
+
+.fc-event-container a:hover{
+    cursor: default !important;
+}

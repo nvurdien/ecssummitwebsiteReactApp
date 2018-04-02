@@ -14,6 +14,12 @@ export default [
     "end": "2018-04-06 13:40:00"
   },
   {
+    "title": "Ice-breaker - SGMH 1307",
+    "id": "822",
+    "start": "2018-04-06 13:40:00",
+    "end": "2018-04-06 14:00:00"
+  },
+  {
     "title": "Active Listening Workshop - SGMH 1307",
     "id": "823",
     "start": "2018-04-06 14:00:00",
