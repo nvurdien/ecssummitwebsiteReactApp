@@ -61,17 +61,17 @@ export default [
   {
     "title": "Welcome Back - SGMH 1307",
     "id": "833",
-    "start": "2018-04-07 10:10:00",
-    "end": "2018-04-07 11:00:00"
+    "start": "2018-04-07 10:00:00",
+    "end": "2018-04-07 10:10:00"
   },
   {
-    "title": "Strengthsfinder Test - SGMH 1307",
+    "title": "StrengthsFinder Test - SGMH 1307",
     "id": "834",
     "start": "2018-04-07 10:10:00",
     "end": "2018-04-07 11:00:00"
   },
   {
-    "title": "Strengthsfinder Presentation - SGMH 1307",
+    "title": "StrengthsFinder Presentation - SGMH 1307",
     "id": "835",
     "start": "2018-04-07 11:10:00",
     "end": "2018-04-07 11:50:00"
@@ -101,7 +101,7 @@ export default [
     "end": "2018-04-07 15:50:00"
   },
   {
-    "title": "Day 2 Speed mentoring - SGMH 2201 & SGMH 2301",
+    "title": "Day 2 Speed Mentoring - SGMH 2201 & SGMH 2301",
     "id": "840",
     "start": "2018-04-07 16:00:00",
     "end": "2018-04-07 17:30:00"
