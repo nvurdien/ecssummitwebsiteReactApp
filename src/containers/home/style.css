@@ -85,10 +85,10 @@
     border-bottom: 1px solid #e5e5e5;
 }
 
-.uk-overlay>:last-child {
-    margin-bottom: 0;
-    margin-top: 260px;
-}
+/*.uk-overlay>:last-child {*/
+    /*margin-bottom: 0;*/
+    /*margin-top: 260px;*/
+/*}*/
 
 .uk-article-lead{
   color: white;

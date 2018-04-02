@@ -26,6 +26,7 @@ const backgroundOverlayStyle = {
     minHeight: '750px'
 };
 
+
 const backgroundTextStyle = {
     minHeight: '750px',
     background: 'rgba(34,34,34,0.3)',
@@ -73,7 +74,7 @@ const Home = () => (
 
         <div className="uk-child-width-1-1@s uk-text-center uk-grid-collapse uk-article" uk-grid="">
     <div>
-    <h1 className="uk-article-title uk-light" style={{textShadow: "4px 2px 4px #000000", marginBottom:'15px'}}>ECS Diversity and Leadership Summit</h1>
+    <h1 className="uk-article-title uk-light" style={{textShadow: "4px 2px 4px #000000", marginBottom:'15px', marginTop: '260px'}}>ECS Diversity and Leadership Summit</h1>
     </div>
     <div style={lineHeightChange}>
         <h4 className="uk-article-lead" style={colorToWhite}><span>April 6th - 7th</span></h4>
