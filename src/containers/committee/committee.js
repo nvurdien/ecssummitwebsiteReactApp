@@ -6,15 +6,18 @@ import pooja from '../../media/poojagajjar.jpg';
 import oscar from '../../media/oscar.jpg';
 import navie from '../../media/1274.jpeg';
 import saqib from '../../media/saqib.jpg';
+import charles from '../../media/charles.png';
+import tommy from '../../media/tommy.png';
+import eric from '../../media/eric.jpg';
 
 export const Committee = [
-  {
+    {
     id: 1,
-    image: alvaro,
-    name:'Alvaro Rivas',
+    image: chrisvillan,
+    name:'Chris Villanueva',
     // title:'A guy',
     description:'Something',
-      email:'alvaro_rivas@csu.fullerton.edu'
+    email:'cvillanueva19@csu.fullerton.edu'
   },
     {
     id: 2,
@@ -32,16 +35,9 @@ export const Committee = [
     description:'Something',
     email:'laurensukumar@csu.fullerton.edu'
   },
-    {
-    id: 4,
-    image: chrisvillan,
-    name:'Chris Villanueva',
-    // title:'A guy',
-    description:'Something',
-    email:'cvillanueva19@csu.fullerton.edu'
-  },
+
      {
-    id: 5,
+    id: 4,
     image:oscar,
     name:'Oscar Olazabal',
     // title:'A guy',
@@ -49,7 +45,7 @@ export const Committee = [
     email:'omolazabal@csu.fullerton.edu'
   },
      {
-    id: 6,
+    id: 5,
     image:navie,
     name:'Navie Vurdien',
     // title:'A guy',
@@ -59,13 +55,21 @@ export const Committee = [
     linkedin: 'https://www.linkedin.com/in/nvurdien/'
   },
      {
-    id: 7,
+    id: 6,
     image:pooja,
     name:'Pooja Gajjar',
     // title:'A guy',
     description:'Something',
     email:'pkgajjar@csu.fullerton.edu'
   },
+  {
+  id: 7,
+  image: charles,
+  name:'Charles Bucher',
+  // title:'A guy',
+  description:'Something',
+  email:'charles.abucher@gmail.com'
+},
   {
   id: 8,
   image: saqib,
@@ -75,12 +79,21 @@ export const Committee = [
   email:'sshahabuddin@csu.fullerton.edu'
 },
 
-//      {
-//     id: 10,
-//     image: tommy,
-//     name:'Tommy Chao',
-//     // title:'A guy',
-//     description:'Something',
-//     email:'tchao770@csu.fullerton.edu'
-//   },
+ {
+  id: 9,
+  image: tommy,
+  name:'Tommy Chao',
+  // title:'A guy',
+  description:'Something',
+  email:'tchao770@csu.fullerton.edu'
+},
+{
+  id: 10,
+  image: eric,
+  name:'Eric Hoang',
+  // title:'A guy',
+  description:'Something',
+  email:'hoangeric15@csu.fullerton.edu '
+}
+
 ];
