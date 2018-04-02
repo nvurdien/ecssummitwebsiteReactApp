@@ -56,7 +56,7 @@ export default [
     "title": "Check-In - SGMH 1303",
     "id": "832",
     "start": "2018-04-07 09:30:00",
-    "end": "2018-04-07 10:10:00"
+    "end": "2018-04-07 10:00:00"
   },
   {
     "title": "Welcome Back - SGMH 1307",
