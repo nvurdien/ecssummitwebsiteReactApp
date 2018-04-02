@@ -1,7 +1,7 @@
 import chrisvillan from '../../media/chrisvillan.jpg';
 import lauren from '../../media/laurensu.jpg';
 import steven from '../../media/stevenespin.jpg';
-import alvaro from '../../media/alvarorivas.png';
+// import alvaro from '../../media/alvarorivas.png';
 import pooja from '../../media/poojagajjar.jpg';
 import oscar from '../../media/oscar.jpg';
 import navie from '../../media/1274.jpeg';
