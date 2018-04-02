@@ -47,7 +47,7 @@ class Schedule extends React.Component {
                     resources={this.state.resources}
                     events = {this.state.events}
                     slotDuration= {'00:10:00'}
-                    minTime={'09:00:00'}
+                    minTime={'08:00:00'}
                     maxTime={'19:00:00'}
                 />
             </div>
