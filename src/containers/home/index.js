@@ -78,27 +78,31 @@ const Home = () => (
     </div>
     <div style={lineHeightChange}>
         <h4 className="uk-article-lead" style={colorToWhite}><span>April 6th - 7th</span></h4>
-        <div className="uk-grid-small uk-flex uk-flex-center uk-child-width-auto" uk-grid="" uk-countdown="date: 2018-04-06T13:00:00+00:00" style={colorToWhite}>
-        <div>
-        <div className="uk-countdown-number uk-countdown-days"/>
-        <div className="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Days</div>
-        </div>
-        <div className="uk-countdown-separator">:</div>
-        <div>
-        <div className="uk-countdown-number uk-countdown-hours"/>
-        <div className="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Hours</div>
-        </div>
-        <div className="uk-countdown-separator">:</div>
-        <div>
-        <div className="uk-countdown-number uk-countdown-minutes"/>
-        <div className="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Minutes</div>
-        </div>
-        <div className="uk-countdown-separator">:</div>
-        <div>
-        <div className="uk-countdown-number uk-countdown-seconds"/>
-        <div className="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Seconds</div>
-        </div>
-    </div>
+        {
+            ((new Date()) < new Date('2018-04-06T13:00:00-08:00')) ?
+                (<div className="uk-grid-small uk-flex uk-flex-center uk-child-width-auto" uk-grid="" uk-countdown="date: 2018-04-06T13:00:00-08:00" style={colorToWhite}>
+                    <div>
+                    <div className="uk-countdown-number uk-countdown-days"/>
+                    <div className="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Days</div>
+                    </div>
+                    <div className="uk-countdown-separator">:</div>
+                    <div>
+                    <div className="uk-countdown-number uk-countdown-hours"/>
+                    <div className="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Hours</div>
+                    </div>
+                    <div className="uk-countdown-separator">:</div>
+                    <div>
+                    <div className="uk-countdown-number uk-countdown-minutes"/>
+                    <div className="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Minutes</div>
+                    </div>
+                    <div className="uk-countdown-separator">:</div>
+                    <div>
+                    <div className="uk-countdown-number uk-countdown-seconds"/>
+                    <div className="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Seconds</div>
+                    </div>
+                </div>) : <div><h1 className="uk-article-lead" style={colorToWhite}><span>Happening Now!</span></h1></div>
+        }
+
     {/*<p> <a className="btn btn-1 btn-1a" style={disabledCursor} disabled="">Register Soon!</a> </p>*/}
     <RegistrationForm/>
     </div>
