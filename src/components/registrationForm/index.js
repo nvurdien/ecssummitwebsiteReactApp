@@ -174,6 +174,7 @@ class RegistrationForm extends React.Component {
             return false;
         }
          else {
+            //TODO: Update this URL for new attendees
             let url = "https://script.google.com/macros/s/AKfycbxyeCTpkwJMAEZh8uEfV9gHqFtYFcrOsHoA4TTQDNCQfLWK8W4/exec";
             // let url = ""; // for testing
             document.getElementById("email").classList.add("uk-form-success");

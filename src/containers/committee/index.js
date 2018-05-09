@@ -20,11 +20,13 @@ export default () => (
             <h1 className="uk-heading-primary uk-heading-line uk-text-center"><span>Student Leaders</span></h1>
 
             <div className="uk-margin-small-left uk-margin-small-right">
+                {/* For new members just update the committee.js file in this directory */}
                 <CardList members={Committee}/>
             </div>
         </div>
         <div className="uk-section uk-section-default">
             <h1 className="uk-heading-primary uk-heading-line uk-text-center"><span>Professional Lead</span></h1>
+            {/* For new advisors just update the AdvisorsList.js file in this directory */}
             <CardList members={AdvisorsList}/>
         </div>
         <Footer/>

@@ -163,6 +163,7 @@ class VolunteerForm extends React.Component {
             return false;
         }
         else {
+            //TODO: Update this URL for new attendees
             let url = "https://script.google.com/macros/s/AKfycbzZ0Ul3H_VbIcj7kKppfwHFc0XKNjlmClrWX77vfIbBAloqB0o/exec";
             // let url = ""; // for testing
             document.getElementById("email").classList.add("uk-form-success");

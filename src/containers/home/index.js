@@ -8,12 +8,17 @@ import introvideo from '../../media/Website-Intro-Video-Medium-Quality.mp4';
 import ACMWLogo from '../../media/ACMW-Tuffy.png';
 import ACMLogo from '../../media/acm-desktopcta.png';
 import {OffCanvasHeader} from "../../components/offCanvasHeader";
+// Change this to a new image
 import day1image from '../../media/day1image.JPG';
+// Change this to a new image
 import day2image from '../../media/DSC_0073.JPG';
+// Change this to a new image
+import day3image from '../../media/DSC_0073.JPG';
 import {Footer} from "../../components/footer";
 import RegistrationForm from "../../components/registrationForm";
 import {Link} from "react-router-dom";
 import summitLogo from '../../media/summitLogo.png';
+import Countdown from '../../components/countdown';
 
 const backgroundStyle = {
     minHeight: '750px',
@@ -52,9 +57,13 @@ const day2Background = {
     backgroundImage: `url(${day2image})`
 };
 
-// const disabledCursor = {
-//     cursor: 'not-allowed'
-// };
+const day3Background = {
+    backgroundImage: `url(${day3image})`
+};
+
+const disabledCursor = {
+    cursor: 'not-allowed'
+};
 
 const Home = () => (
     <div>
@@ -63,7 +72,7 @@ const Home = () => (
     <div id="mainpage" className="uk-background-muted">
 
         <div className="uk-cover-container uk-background-cover uk-background-default" style={backgroundStyle}>
-        <video id="home_video_element" autoPlay="" loop alt="summit preview" muted="" playsInline="" uk-cover="">
+        <video id="home_video_element" autoPlay="" loop="" alt="summit preview" muted="" playsInline="" uk-cover="">
     <source id="mp4Source" type="video/mp4" src={introvideo} alt="summit preview" />
         </video>
 
@@ -77,34 +86,24 @@ const Home = () => (
     <h1 className="uk-article-title uk-light" style={{textShadow: "4px 2px 4px #000000", marginBottom:'15px', marginTop: '260px'}}>ECS Diversity and Leadership Summit</h1>
     </div>
     <div style={lineHeightChange}>
-        <h4 className="uk-article-lead" style={colorToWhite}><span>April 6th - 7th</span></h4>
+        <h4 className="uk-article-lead" style={colorToWhite}><span>March 15th - 17th, 2019</span></h4>
         {
-            ((new Date()) < new Date('2018-04-06T13:00:00-08:00')) ?
-                (<div className="uk-grid-small uk-flex uk-flex-center uk-child-width-auto" uk-grid="" uk-countdown="date: 2018-04-06T13:00:00-08:00" style={colorToWhite}>
-                    <div>
-                    <div className="uk-countdown-number uk-countdown-days"/>
-                    <div className="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Days</div>
-                    </div>
-                    <div className="uk-countdown-separator">:</div>
-                    <div>
-                    <div className="uk-countdown-number uk-countdown-hours"/>
-                    <div className="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Hours</div>
-                    </div>
-                    <div className="uk-countdown-separator">:</div>
-                    <div>
-                    <div className="uk-countdown-number uk-countdown-minutes"/>
-                    <div className="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Minutes</div>
-                    </div>
-                    <div className="uk-countdown-separator">:</div>
-                    <div>
-                    <div className="uk-countdown-number uk-countdown-seconds"/>
-                    <div className="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Seconds</div>
-                    </div>
-                </div>) : <div><h1 className="uk-article-lead" style={colorToWhite}><span>Happening Now!</span></h1></div>
+            /*
+            TODO: You guys will want to change Countdown for after 2019!
+                  Just change the date field please
+            */
         }
+        {
+            /* Countdown
+            @param date * Indicates the start date of the event (YYYY-MM-DDTHH:MM:SS-08:00)
+            @param colorToWhite * just a style piece no need to touch
+            */
+        }
+        <Countdown date={'2019-03-15T13:00:00-08:00'} colorToWhite={colorToWhite}/>
 
-    {/*<p> <a className="btn btn-1 btn-1a" style={disabledCursor} disabled="">Register Soon!</a> </p>*/}
-    <RegistrationForm/>
+        {/* TODO: Comment this out and uncomment RegistrationForm once its ready!! */}
+    <p> <a className="btn btn-1 btn-1a" style={disabledCursor} disabled="">Register Soon!</a> </p>
+    {/*<RegistrationForm/>*/}
     </div>
     </div>
     </div>
@@ -125,7 +124,6 @@ const Home = () => (
         </div>
     </div>
 <div className="uk-grid-collapse uk-child-width-1-1@s" uk-grid="">
-    {/*uk-scrollspy="cls: uk-animation-slide-left; target: > div; offset-top: -200;"*/}
         <div
              className="uk-card uk-card-secondary uk-grid-collapse uk-child-width-1-2@s uk-margin uk-margin-remove-bottom"
              uk-grid="">
@@ -138,6 +136,7 @@ const Home = () => (
             <div className="uk-flex uk-flex-middle uk-flex-center">
                 <div className="uk-card-body uk-text-center">
                     <h3 className="uk-card-title" style={{textShadow: "1px 1px 4px #000000"}}>Day 1</h3>
+                    {/* TODO: Change these to fit the new need (: */}
                     <p style={{textShadow: "1px 1px 2px #000000", color:"white"}}>Active Listening</p>
                     <p style={{textShadow: "1px 1px 2px #000000", color:"white"}}>Keynote Speaker</p>
                     <p  style={{textShadow: "1px 1px 2px #000000", color:"white"}}>Speed Mentoring</p>
@@ -145,7 +144,6 @@ const Home = () => (
             </div>
 
         </div>
-    {/*uk-scrollspy="cls: uk-animation-slide-right; target: > div; offset-top: -200;"*/}
         <div
              className="uk-card uk-card-primary uk-grid-collapse uk-child-width-1-2@s uk-margin uk-margin-remove-top uk-margin-remove-bottom"
              uk-grid="">
@@ -157,6 +155,7 @@ const Home = () => (
             <div className="uk-flex uk-flex-middle uk-flex-center">
                 <div className="uk-card-body uk-text-center">
                     <h3 className="uk-card-title" style={{textShadow: "1px 1px 4px #000000"}}>Day 2</h3>
+                    {/* TODO: Change these to fit the new need (: */}
                     <p style={{textShadow: "1px 1px 2px #000000", color:"white"}}>Strengthsfinder</p>
                     <p style={{textShadow: "1px 1px 2px #000000", color:"white"}}>Workshops</p>
                     <p style={{textShadow: "1px 1px 2px #000000", color:"white"}}>Panel Discussion</p>
@@ -164,8 +163,28 @@ const Home = () => (
                 </div>
             </div>
         </div>
+    <div
+        className="uk-card uk-card-secondary uk-grid-collapse uk-child-width-1-2@s uk-margin uk-margin-remove-top uk-margin-remove-bottom"
+        uk-grid="">
+        <div title="at team building activity at event"
+             className="uk-card-media-left uk-box-shadow-large uk-background-blend-screen uk-text-center uk-background-primary uk-background-cover uk-background-fixed"
+             style={day3Background} alt="Summit Intro picture">
+            <canvas width="400" height="350"/>
+        </div>
+
+        <div className="uk-flex uk-flex-middle uk-flex-center">
+            <div className="uk-card-body uk-text-center">
+                <h3 className="uk-card-title" style={{textShadow: "1px 1px 4px #000000"}}>Day 3</h3>
+                {/* TODO: Change these to fit the new need (: */}
+                <p style={{textShadow: "1px 1px 2px #000000", color:"white"}}>Active Listening</p>
+                <p style={{textShadow: "1px 1px 2px #000000", color:"white"}}>Keynote Speaker</p>
+                <p  style={{textShadow: "1px 1px 2px #000000", color:"white"}}>Speed Mentoring</p>
+            </div>
+        </div>
+
+    </div>
 </div>
-    <div  uk-scrollspy="cls: uk-animation-slide-bottom; target: > div; repeat:true" className="uk-section uk-section-secondary uk-padding-large">
+    <div  uk-scrollspy="cls: uk-animation-scale-up uk-transform-origin-bottom-center; target: > div; repeat:true;" className="uk-section uk-section-primary uk-padding-large">
         <div className="uk-container">
 
             <h1 className="uk-text-center uk-text-bold" style={{textShadow: "1px 1px 2px #000000", color:"white"}}>FAQ</h1>
@@ -215,15 +234,16 @@ const Home = () => (
             <h1 className="uk-text-center uk-text-bold" style={{textShadow: "0px 1px 1px gray"}}>Sponsors</h1>
             <br />
 
-                <div className="uk-text-center uk-flex uk-flex-middle uk-child-width-1-2@s"  uk-grid="">
-                    <div>
-                        <p><img src={ACMLogo} className="uk-text-middle" alt="sponsor name"/></p>
-                    </div>
-                    <div>
-                        <p><img src={ACMWLogo} height="auto" width="200px" alt="sponsor name"/></p>
-
-                    </div>
+            {/* TODO: You can add more of these rows for new sponsors and pick your own sizes */}
+            <div className="uk-text-center uk-flex uk-flex-middle uk-child-width-1-2@s"  uk-grid="">
+                <div>
+                    <p><img src={ACMLogo} className="uk-text-middle" alt="sponsor name"/></p>
                 </div>
+                <div>
+                    <p><img src={ACMWLogo} height="auto" width="200px" alt="sponsor name"/></p>
+
+                </div>
+            </div>
 
         </div>
     </div>
